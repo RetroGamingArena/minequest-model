@@ -1,0 +1,13 @@
+[comment encoding = UTF-8 /]
+[module main('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+
+[template public generateElement(aPackage : Package)]
+[comment @main/]
+
+[for (aClass : Class | aPackage.)]
+	[file (aClass.name.concat('.h'), false, 'UTF-8')]
+	[/file]
+[/for]
+
+[/template]

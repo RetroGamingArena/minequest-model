@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+/Users/CAILLABET/Dev/minequest-model/.metadata/.plugins/org.eclipse.jdt.core
+100452621.index
+3121904724.index
+1278217873.index
+47579556.index
+2195741103.index
+1410175080.index
