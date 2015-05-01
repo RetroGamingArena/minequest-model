@@ -1,0 +1,36 @@
+[comment encoding = UTF-8 /]
+[module main('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+
+[template public generateElement(aPackage : Package)]
+[comment @main/]
+
+[for (aClass : Class | aPackage.getOwnedMembers())]
+	[if (aPackage.name.equalsIgnoreCase('Model'))]
+		[file (aClass.name.concat('.h'), false, 'UTF-8')]
+		[/file]
+		[file (aClass.name.concat('.cpp'), false, 'UTF-8')]
+			[if (aClass.name.equalsIgnoreCase('main'))]
+int main(int argc, char **argv)
+{
+    engine->run();
+    
+    return 0;
+}
+			[/if]
+		[/file]
+	[else]
+		[file (aPackage.name.concat('/'+aClass.name.concat('.h')), false, 'UTF-8')]
+class [aClass.name/]
+{
+			[for (anOperation : Operation | aClass.ownedOperation)]
+	[anOperation.name/]
+			[/for]
+};
+		[/file]
+		[file (aPackage.name.concat('/'+aClass.name.concat('.cpp')), false, 'UTF-8')]
+		[/file]
+	[/if]
+[/for]
+
+[/template]
