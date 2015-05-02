@@ -12,11 +12,11 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_poPl0PC7EeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_poPl0fC7EeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_-5_JgPDZEeSU2M_KtQEOUA" name="windowWidth" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_-5_JgPDZEeSU2M_KtQEOUA" name="windowWidth" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-5_wkPDZEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-5_wkfDZEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_BaQt4PDaEeSU2M_KtQEOUA" name="windowHeight" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_BaQt4PDaEeSU2M_KtQEOUA" name="windowHeight" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BaRU8PDaEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BaRU8fDaEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
