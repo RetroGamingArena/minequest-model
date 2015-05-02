@@ -1,0 +1,95 @@
+[comment encoding = UTF-8 /]
+[module main('http://www.eclipse.org/uml2/5.0.0/UML')]
+
+
+[template public generateElement(aPackage : Package)]
+[comment @main/]
+
+[for (aClass : Class | aPackage.ownedElement)]
+	[if (aPackage.name.equalsIgnoreCase('Model'))]
+		[file (aClass.name.concat('.h'), false, 'UTF-8')]
+		[/file]
+		[file (aClass.name.concat('.cpp'), false, 'UTF-8')]
+			[if (aClass.name.equalsIgnoreCase('main'))]
+#include "engine/Engine.h"
+
+Engine* engine = Engine::getInstance();
+
+int main(int argc, char **argv)
+{
+    engine->run();
+    
+    return 0;
+}
+			[/if]
+		[/file]
+	[else]
+		[file (aPackage.name.concat('/'+aClass.name.concat('.h')), false, 'UTF-8')]
+#ifndef __[aClass.name/]__
+#define __[aClass.name/]__
+
+class [aClass.name/]
+{
+			[for (anAssociation : Association | aClass.getAssociations())]
+				[for(anEnd : Property | anAssociation.ownedEnd)]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public'))]
+	[if(anEnd.isStatic)]static [/if][anEnd.type.name/]* [anEnd.name/];
+					[/if]
+				[/for]
+			[/for]
+
+	public:
+			[for (anOperation : Operation | aClass.ownedOperation)]
+				[if(anOperation.visibility.toString().equalsIgnoreCase('public'))]
+		[anOperation.type.name/] [anOperation.name/]();
+				[/if]
+			[/for]
+			[for (anAssociation : Association | aClass.getAssociations())]
+				[for(anEnd : Property | anAssociation.ownedEnd)]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public'))]
+		[if(anEnd.isStatic)]static [/if][aClass.name/]* get[anEnd.name.toUpperFirst()/]();
+					[/if]
+				[/for]
+			[/for]
+};
+
+#endif
+		[/file]
+		[file (aPackage.name.concat('/'+aClass.name.concat('.cpp')), false, 'UTF-8')]
+#include <cstdlib>
+
+#include "[aClass.name/].h"
+
+[for (anAssociation : Association | aClass.getAssociations())]
+	[for(anEnd : Property | anAssociation.ownedEnd)]
+		[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public'))]
+[anEnd.type.name/]* [aClass.name/]::[anEnd.name/] = NULL;
+		[/if]
+	[/for]
+[/for]
+
+[for (anOperation : Operation | aClass.ownedOperation)]
+				[if(anOperation.visibility.toString().equalsIgnoreCase('public'))]
+[anOperation.type.name/] [aClass.name/]::[anOperation.name/]()
+{
+	/*[protected (anOperation.name)]*/
+	/*[/protected]*/
+}
+
+				[/if]
+			[/for]
+			[for (anAssociation : Association | aClass.getAssociations())]
+				[for(anEnd : Property | anAssociation.ownedEnd)]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public'))]
+[aClass.name/]* [aClass.name/]::get[anEnd.name.toUpperFirst()/]()
+{
+	return [anEnd.name/];
+}
+					[/if]
+				[/for]
+			[/for]
+		[/file]
+	[/if]
+[/for]
+
+[/template]

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_AvHhoO0VEeSfuq8qJDWTRA" name="Model">
+  <packageImport xmi:id="_odftwO35EeSYNYAkuIL-TQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_XanTEO0eEeSYNYAkuIL-TQ" name="main">
+    <ownedOperation xmi:id="_ncceUO0mEeSYNYAkuIL-TQ" name="main"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_FdmecO0fEeSYNYAkuIL-TQ" name="engine">
+    <packagedElement xmi:type="uml:Class" xmi:id="_I3GJ0O0fEeSYNYAkuIL-TQ" name="Engine">
+      <ownedAttribute xmi:id="_poO-wPC7EeSU2M_KtQEOUA" name="wingow" type="_gFwi8PC7EeSU2M_KtQEOUA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_poPl0PC7EeSU2M_KtQEOUA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_poPl0fC7EeSU2M_KtQEOUA" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_UxexMO_dEeSYNYAkuIL-TQ" name="run">
+        <ownedParameter xmi:id="_9-dEUO_nEeSYNYAkuIL-TQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_j919cO67EeSYNYAkuIL-TQ" name="enginesToEngines" memberEnd="_j919ce67EeSYNYAkuIL-TQ _j92kgu67EeSYNYAkuIL-TQ" navigableOwnedEnd="_j92kgu67EeSYNYAkuIL-TQ">
+      <ownedEnd xmi:id="_j919ce67EeSYNYAkuIL-TQ" name="instance" visibility="public" isStatic="true" type="_I3GJ0O0fEeSYNYAkuIL-TQ" aggregation="shared" association="_j919cO67EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j92kgO67EeSYNYAkuIL-TQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j92kge67EeSYNYAkuIL-TQ" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_j92kgu67EeSYNYAkuIL-TQ" name="instances" visibility="private" type="_I3GJ0O0fEeSYNYAkuIL-TQ" association="_j919cO67EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j93LkO67EeSYNYAkuIL-TQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j93Lke67EeSYNYAkuIL-TQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Xy0R0PC6EeSU2M_KtQEOUA" client="_I3GJ0O0fEeSYNYAkuIL-TQ" supplier="_BEbEwPCuEeSU2M_KtQEOUA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_cM5N8O0sEeSYNYAkuIL-TQ" name="&lt;iostream>"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_p3hGoO33EeSYNYAkuIL-TQ" name="octree">
+    <packagedElement xmi:type="uml:Class" xmi:id="_r6GCYO33EeSYNYAkuIL-TQ" name="OctreeEntry"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_rW9OMO35EeSYNYAkuIL-TQ" name="int"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1Ci5QO_nEeSYNYAkuIL-TQ" name="void"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_BEbEwPCuEeSU2M_KtQEOUA" name="&lt;GLFW/glfw3.h>"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gFwi8PC7EeSU2M_KtQEOUA" name="GLFWwindow"/>
+</uml:Model>
