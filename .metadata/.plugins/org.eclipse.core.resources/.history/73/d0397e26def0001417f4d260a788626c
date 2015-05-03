@@ -56,11 +56,6 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gFwi8PC7EeSU2M_KtQEOUA" name="GLFWwindow*"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_IhmNsPC-EeSU2M_KtQEOUA" name="scene">
     <packagedElement xmi:type="uml:Class" xmi:id="_MsaBQPC-EeSU2M_KtQEOUA" name="Scene"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Ar2y8PDeEeSU2M_KtQEOUA" name="VBOScene">
-      <generalization xmi:id="_KqMrYPDeEeSU2M_KtQEOUA" general="_MsaBQPC-EeSU2M_KtQEOUA"/>
-    </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
-    <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera"/>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera"/>
 </uml:Model>

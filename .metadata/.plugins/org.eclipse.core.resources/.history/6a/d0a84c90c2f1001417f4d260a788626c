@@ -31,7 +31,7 @@ int main(int argc, char **argv)
 #include <GLFW/glfw3.h>
 
 [for(superClass : Class | aClass.superClass)]
-#include "[superClass.name/].h"
+#include "[superClass/].h"
 [/for]
 
 [for (anAssociation : Association | aClass.getAssociations())]
