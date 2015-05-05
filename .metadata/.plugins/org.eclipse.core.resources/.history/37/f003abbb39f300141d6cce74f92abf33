@@ -155,16 +155,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19L88PKiEeSU2M_KtQEOUA" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ajDnAPM6EeSIFroSQ3PJhQ" name="scenesToUIs" visibility="private" memberEnd="_ajDnAfM6EeSIFroSQ3PJhQ _ajEOEvM6EeSIFroSQ3PJhQ" navigableOwnedEnd="_ajEOEvM6EeSIFroSQ3PJhQ">
-      <ownedEnd xmi:id="_ajDnAfM6EeSIFroSQ3PJhQ" name="scenes" visibility="private" type="_MsaBQPC-EeSU2M_KtQEOUA" aggregation="composite" association="_ajDnAPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ajEOEPM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ajEOEfM6EeSIFroSQ3PJhQ" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_ajEOEvM6EeSIFroSQ3PJhQ" name="uI" visibility="private" type="_lZEjwPM5EeSIFroSQ3PJhQ" association="_ajDnAPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ajE1IPM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ajE1IfM6EeSIFroSQ3PJhQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
     <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera">
@@ -330,36 +320,7 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RtAQPKoEeSU2M_KtQEOUA" name="GLfloat"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_n-X_EPKqEeSU2M_KtQEOUA" name="unsigned int"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_kzbx0PMSEeSU2M_KtQEOUA" name="glm::mat4"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_jA_5IPM5EeSIFroSQ3PJhQ" name="ui">
-    <packagedElement xmi:type="uml:Class" xmi:id="_lZEjwPM5EeSIFroSQ3PJhQ" name="UI">
-      <ownedOperation xmi:id="_Nnl2IPM6EeSIFroSQ3PJhQ" name="render">
-        <ownedParameter xmi:id="_R5r9cPM6EeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_wMRAkPM5EeSIFroSQ3PJhQ" name="LoadingUI">
-      <generalization xmi:id="_zy8zYPM5EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_127dUPM5EeSIFroSQ3PJhQ" name="Control">
-      <ownedOperation xmi:id="_URDdcPM6EeSIFroSQ3PJhQ" name="render">
-        <ownedParameter xmi:id="_VQ6X8PM6EeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_GT7bQPM6EeSIFroSQ3PJhQ" name="Label">
-      <generalization xmi:id="_Mqy2sPM6EeSIFroSQ3PJhQ" general="_127dUPM5EeSIFroSQ3PJhQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_JylTcPM6EeSIFroSQ3PJhQ" name="uIsToControls" visibility="protected" memberEnd="_Jyl6gPM6EeSIFroSQ3PJhQ _Jy7RsvM6EeSIFroSQ3PJhQ" navigableOwnedEnd="_Jy7RsvM6EeSIFroSQ3PJhQ">
-      <ownedEnd xmi:id="_Jyl6gPM6EeSIFroSQ3PJhQ" name="uIs" visibility="protected" type="_lZEjwPM5EeSIFroSQ3PJhQ" aggregation="shared" association="_JylTcPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Jy7RsPM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Jy7RsfM6EeSIFroSQ3PJhQ" value="*"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_Jy7RsvM6EeSIFroSQ3PJhQ" name="controls" visibility="protected" type="_127dUPM5EeSIFroSQ3PJhQ" association="_JylTcPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JzQo4PM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JzQo4fM6EeSIFroSQ3PJhQ" value="*"/>
-      </ownedEnd>
-    </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jA_5IPM5EeSIFroSQ3PJhQ" name="Package8">
+    <packagedElement xmi:type="uml:Class" xmi:id="_lZEjwPM5EeSIFroSQ3PJhQ" name="UI"/>
   </packagedElement>
 </uml:Model>

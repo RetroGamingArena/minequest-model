@@ -155,16 +155,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19L88PKiEeSU2M_KtQEOUA" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_ajDnAPM6EeSIFroSQ3PJhQ" name="scenesToUIs" visibility="private" memberEnd="_ajDnAfM6EeSIFroSQ3PJhQ _ajEOEvM6EeSIFroSQ3PJhQ" navigableOwnedEnd="_ajEOEvM6EeSIFroSQ3PJhQ">
-      <ownedEnd xmi:id="_ajDnAfM6EeSIFroSQ3PJhQ" name="scenes" visibility="private" type="_MsaBQPC-EeSU2M_KtQEOUA" aggregation="composite" association="_ajDnAPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ajEOEPM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ajEOEfM6EeSIFroSQ3PJhQ" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_ajEOEvM6EeSIFroSQ3PJhQ" name="uI" visibility="private" type="_lZEjwPM5EeSIFroSQ3PJhQ" association="_ajDnAPM6EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ajE1IPM6EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ajE1IfM6EeSIFroSQ3PJhQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
     <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera">
