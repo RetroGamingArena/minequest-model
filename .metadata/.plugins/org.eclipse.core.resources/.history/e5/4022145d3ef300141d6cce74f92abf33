@@ -220,20 +220,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LwH-QPJ2EeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LwIlUPJ2EeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_U7-kkPNMEeSIFroSQ3PJhQ" name="load_png_texture" isStatic="true">
-        <ownedParameter xmi:id="_WjbDgPNMEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_56_FoPNaEeSIFroSQ3PJhQ" name="file_name" type="_MKTt4PM8EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_28JrEPNcEeSIFroSQ3PJhQ" name="flip_image_vertical" isStatic="true">
-        <ownedParameter xmi:id="_4e3bAPNcEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_SGOaQPNeEeSIFroSQ3PJhQ" name="data" type="_fQwXUPNdEeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_-IVvgPNdEeSIFroSQ3PJhQ" name="width" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_EzvQgPNeEeSIFroSQ3PJhQ" name="height" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_WaELgPJBEeSU2M_KtQEOUA" name="WorldShader">
       <generalization xmi:id="_r4TOsPJBEeSU2M_KtQEOUA" general="_-1AlwPJAEeSU2M_KtQEOUA"/>
@@ -248,17 +234,7 @@
         <ownedParameter xmi:id="_bTkmYPJoEeSU2M_KtQEOUA" name="geometry_file_path" type="_1XtvoPJmEeSU2M_KtQEOUA"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MK-xYPM-EeSIFroSQ3PJhQ" name="TextShader">
-      <generalization xmi:id="_Wwq9sPM-EeSIFroSQ3PJhQ" general="_-1AlwPJAEeSU2M_KtQEOUA"/>
-      <ownedAttribute xmi:id="_9w5Q8PM-EeSIFroSQ3PJhQ" name="textureSamplerID" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9w54APM-EeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9w54AfM-EeSIFroSQ3PJhQ" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_kPGm0PNAEeSIFroSQ3PJhQ" name="fontID" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kPHN4PNAEeSIFroSQ3PJhQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kPHN4fNAEeSIFroSQ3PJhQ" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MK-xYPM-EeSIFroSQ3PJhQ" name="TextShader"/>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_0dGY8PJPEeSU2M_KtQEOUA" name="double"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1XtvoPJmEeSU2M_KtQEOUA" name="const char *"/>
@@ -399,7 +375,7 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_X8GEcPM9EeSIFroSQ3PJhQ" name="uIsToShaders" visibility="protected" memberEnd="_X8GrgPM9EeSIFroSQ3PJhQ _X8HSkvM9EeSIFroSQ3PJhQ" navigableOwnedEnd="_X8HSkvM9EeSIFroSQ3PJhQ">
-      <ownedEnd xmi:id="_X8GrgPM9EeSIFroSQ3PJhQ" name="uIs" visibility="protected" type="_lZEjwPM5EeSIFroSQ3PJhQ" aggregation="composite" association="_X8GEcPM9EeSIFroSQ3PJhQ">
+      <ownedEnd xmi:id="_X8GrgPM9EeSIFroSQ3PJhQ" name="uIs" visibility="protected" type="_lZEjwPM5EeSIFroSQ3PJhQ" aggregation="shared" association="_X8GEcPM9EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_X8HSkPM9EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X8HSkfM9EeSIFroSQ3PJhQ" value="*"/>
       </ownedEnd>
@@ -410,5 +386,4 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MKTt4PM8EeSIFroSQ3PJhQ" name="char*"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fQwXUPNdEeSIFroSQ3PJhQ" name="unsigned char*"/>
 </uml:Model>

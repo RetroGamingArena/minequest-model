@@ -220,20 +220,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LwH-QPJ2EeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LwIlUPJ2EeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_U7-kkPNMEeSIFroSQ3PJhQ" name="load_png_texture" isStatic="true">
-        <ownedParameter xmi:id="_WjbDgPNMEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_56_FoPNaEeSIFroSQ3PJhQ" name="file_name" type="_MKTt4PM8EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_28JrEPNcEeSIFroSQ3PJhQ" name="flip_image_vertical" isStatic="true">
-        <ownedParameter xmi:id="_4e3bAPNcEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_SGOaQPNeEeSIFroSQ3PJhQ" name="data" type="_fQwXUPNdEeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_-IVvgPNdEeSIFroSQ3PJhQ" name="width" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_EzvQgPNeEeSIFroSQ3PJhQ" name="height" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_WaELgPJBEeSU2M_KtQEOUA" name="WorldShader">
       <generalization xmi:id="_r4TOsPJBEeSU2M_KtQEOUA" general="_-1AlwPJAEeSU2M_KtQEOUA"/>
@@ -410,5 +396,4 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MKTt4PM8EeSIFroSQ3PJhQ" name="char*"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fQwXUPNdEeSIFroSQ3PJhQ" name="unsigned char*"/>
 </uml:Model>

@@ -230,7 +230,9 @@
         <ownedParameter xmi:id="_4e3bAPNcEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_SGOaQPNeEeSIFroSQ3PJhQ" name="data" type="_fQwXUPNdEeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_3qe7QPNdEeSIFroSQ3PJhQ" type="_fQwXUPNdEeSIFroSQ3PJhQ">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <ownedParameter xmi:id="_-IVvgPNdEeSIFroSQ3PJhQ" name="width" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_EzvQgPNeEeSIFroSQ3PJhQ" name="height" type="_n-X_EPKqEeSU2M_KtQEOUA"/>
       </ownedOperation>
