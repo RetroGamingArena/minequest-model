@@ -304,11 +304,11 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_OU-4sPMbEeSU2M_KtQEOUA" name="vBOsToAttributes" visibility="protected" memberEnd="_OU_fwPMbEeSU2M_KtQEOUA _OVBU8PMbEeSU2M_KtQEOUA" navigableOwnedEnd="_OVBU8PMbEeSU2M_KtQEOUA">
-      <ownedEnd xmi:id="_OU_fwPMbEeSU2M_KtQEOUA" name="vBOs" visibility="protected" type="_vHVqkPMSEeSU2M_KtQEOUA" isReadOnly="true" aggregation="shared" association="_OU-4sPMbEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_OU_fwPMbEeSU2M_KtQEOUA" name="vBOs" visibility="protected" type="_vHVqkPMSEeSU2M_KtQEOUA" aggregation="shared" association="_OU-4sPMbEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVAG0PMbEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVAt4PMbEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_OVBU8PMbEeSU2M_KtQEOUA" name="attributes" visibility="protected" type="_Alm-oPMbEeSU2M_KtQEOUA" isReadOnly="true" association="_OU-4sPMbEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_OVBU8PMbEeSU2M_KtQEOUA" name="attributes" visibility="protected" type="_Alm-oPMbEeSU2M_KtQEOUA" association="_OU-4sPMbEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVB8APMbEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVB8AfMbEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>

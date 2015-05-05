@@ -158,18 +158,6 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
     <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera">
-      <ownedAttribute xmi:id="_xWqn4PMdEeSU2M_KtQEOUA" name="model" visibility="protected" type="_kzbx0PMSEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xWrO8PMdEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xWr2APMdEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_R5YsMPMeEeSU2M_KtQEOUA" name="view" visibility="protected" type="_kzbx0PMSEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R5ZTQPMeEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R5Z6UPMeEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_e0Wt0PMeEeSU2M_KtQEOUA" name="projection" visibility="protected" type="_kzbx0PMSEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e0XU4PMeEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e0XU4fMeEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_WKt3YPKCEeSU2M_KtQEOUA" name="look">
         <ownedParameter xmi:id="_ctZhQPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -273,49 +261,8 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I-RwPKiEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_vHVqkPMSEeSU2M_KtQEOUA" name="VBO">
-      <ownedAttribute xmi:id="_SRRtIPMxEeSU2M_KtQEOUA" name="size" visibility="private" type="_n-X_EPKqEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SRSUMPMxEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SRS7QPMxEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Alm-oPMbEeSU2M_KtQEOUA" name="Attribute">
-      <ownedAttribute xmi:id="_wvsi8PMnEeSU2M_KtQEOUA" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wvtKAPMnEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wvtxEPMnEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_A8jEsPMrEeSU2M_KtQEOUA" name="divisor" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A8rnkPMrEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A8yVQPMrEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_TMzTgPMsEeSU2M_KtQEOUA" name="name" visibility="private" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TM0hoPMsEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TM1IsPMsEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_JeHQYPMbEeSU2M_KtQEOUA" name="doubleBuffersToVBOs" visibility="private" memberEnd="_JeH3cPMbEeSU2M_KtQEOUA _JeJsoPMbEeSU2M_KtQEOUA" navigableOwnedEnd="_JeJsoPMbEeSU2M_KtQEOUA">
-      <ownedEnd xmi:id="_JeH3cPMbEeSU2M_KtQEOUA" name="doubleBuffers" visibility="private" type="_W3rdgPKiEeSU2M_KtQEOUA" aggregation="composite" association="_JeHQYPMbEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JeJFkPMbEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JeJFkfMbEeSU2M_KtQEOUA" value="*"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_JeJsoPMbEeSU2M_KtQEOUA" name="vBO" visibility="private" type="_vHVqkPMSEeSU2M_KtQEOUA" association="_JeHQYPMbEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JeKTsPMbEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JeK6wPMbEeSU2M_KtQEOUA" value="*"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_OU-4sPMbEeSU2M_KtQEOUA" name="vBOsToAttributes" visibility="protected" memberEnd="_OU_fwPMbEeSU2M_KtQEOUA _OVBU8PMbEeSU2M_KtQEOUA" navigableOwnedEnd="_OVBU8PMbEeSU2M_KtQEOUA">
-      <ownedEnd xmi:id="_OU_fwPMbEeSU2M_KtQEOUA" name="vBOs" visibility="protected" type="_vHVqkPMSEeSU2M_KtQEOUA" isReadOnly="true" aggregation="shared" association="_OU-4sPMbEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVAG0PMbEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVAt4PMbEeSU2M_KtQEOUA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_OVBU8PMbEeSU2M_KtQEOUA" name="attributes" visibility="protected" type="_Alm-oPMbEeSU2M_KtQEOUA" isReadOnly="true" association="_OU-4sPMbEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVB8APMbEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVB8AfMbEeSU2M_KtQEOUA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_atA5cPMoEeSU2M_KtQEOUA" name="VoxelVBO">
-      <generalization xmi:id="_qfhI4PMoEeSU2M_KtQEOUA" general="_vHVqkPMSEeSU2M_KtQEOUA"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vHVqkPMSEeSU2M_KtQEOUA" name="VBO"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Alm-oPMbEeSU2M_KtQEOUA" name="Attribute"/>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_8RtAQPKoEeSU2M_KtQEOUA" name="GLfloat"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_n-X_EPKqEeSU2M_KtQEOUA" name="unsigned int"/>

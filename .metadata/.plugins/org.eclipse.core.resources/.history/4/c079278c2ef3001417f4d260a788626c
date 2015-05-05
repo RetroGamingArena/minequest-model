@@ -141,7 +141,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 							[/if]
 						[/for]
 					[/if]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 		[if(otherEnd.isStatic)]static [/if]vector<[otherEnd.type.name/]*> get[otherEnd.name.toUpperFirst()/]();
@@ -251,7 +251,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 
 			[for (anAssociation : Association | aClass.getAssociations())]
 				[for(anEnd : Property | anAssociation.ownedEnd)]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 [otherEnd.type.name/]* [aClass.name/]::get[otherEnd.name.toUpperFirst()/]()
@@ -271,7 +271,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 							[/if]
 						[/for]
 					[/if]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 vector<[otherEnd.type.name/]*> [aClass.name/]::get[otherEnd.name.toUpperFirst()/]()

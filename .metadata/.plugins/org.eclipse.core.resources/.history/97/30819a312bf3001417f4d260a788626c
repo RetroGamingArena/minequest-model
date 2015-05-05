@@ -273,24 +273,11 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1I-RwPKiEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_vHVqkPMSEeSU2M_KtQEOUA" name="VBO">
-      <ownedAttribute xmi:id="_SRRtIPMxEeSU2M_KtQEOUA" name="size" visibility="private" type="_n-X_EPKqEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SRSUMPMxEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SRS7QPMxEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vHVqkPMSEeSU2M_KtQEOUA" name="VBO"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Alm-oPMbEeSU2M_KtQEOUA" name="Attribute">
-      <ownedAttribute xmi:id="_wvsi8PMnEeSU2M_KtQEOUA" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_wvsi8PMnEeSU2M_KtQEOUA" name="size" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wvtKAPMnEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wvtxEPMnEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_A8jEsPMrEeSU2M_KtQEOUA" name="divisor" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A8rnkPMrEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A8yVQPMrEeSU2M_KtQEOUA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_TMzTgPMsEeSU2M_KtQEOUA" name="name" visibility="private" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TM0hoPMsEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TM1IsPMsEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_JeHQYPMbEeSU2M_KtQEOUA" name="doubleBuffersToVBOs" visibility="private" memberEnd="_JeH3cPMbEeSU2M_KtQEOUA _JeJsoPMbEeSU2M_KtQEOUA" navigableOwnedEnd="_JeJsoPMbEeSU2M_KtQEOUA">
@@ -303,12 +290,12 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JeK6wPMbEeSU2M_KtQEOUA" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_OU-4sPMbEeSU2M_KtQEOUA" name="vBOsToAttributes" visibility="protected" memberEnd="_OU_fwPMbEeSU2M_KtQEOUA _OVBU8PMbEeSU2M_KtQEOUA" navigableOwnedEnd="_OVBU8PMbEeSU2M_KtQEOUA">
-      <ownedEnd xmi:id="_OU_fwPMbEeSU2M_KtQEOUA" name="vBOs" visibility="protected" type="_vHVqkPMSEeSU2M_KtQEOUA" isReadOnly="true" aggregation="shared" association="_OU-4sPMbEeSU2M_KtQEOUA">
+    <packagedElement xmi:type="uml:Association" xmi:id="_OU-4sPMbEeSU2M_KtQEOUA" name="vBOsToAttributes" visibility="private" memberEnd="_OU_fwPMbEeSU2M_KtQEOUA _OVBU8PMbEeSU2M_KtQEOUA" navigableOwnedEnd="_OVBU8PMbEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_OU_fwPMbEeSU2M_KtQEOUA" name="vBOs" visibility="private" type="_vHVqkPMSEeSU2M_KtQEOUA" aggregation="shared" association="_OU-4sPMbEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVAG0PMbEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVAt4PMbEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_OVBU8PMbEeSU2M_KtQEOUA" name="attributes" visibility="protected" type="_Alm-oPMbEeSU2M_KtQEOUA" isReadOnly="true" association="_OU-4sPMbEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_OVBU8PMbEeSU2M_KtQEOUA" name="attributes" visibility="private" type="_Alm-oPMbEeSU2M_KtQEOUA" association="_OU-4sPMbEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OVB8APMbEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OVB8AfMbEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>

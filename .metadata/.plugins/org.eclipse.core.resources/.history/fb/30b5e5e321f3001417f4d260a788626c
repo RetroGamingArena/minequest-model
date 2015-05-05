@@ -48,7 +48,7 @@ int main(int argc, char **argv)
 
 [for (anAssociation : Association | aClass.getAssociations())]
 	[for(anEnd : Property | anAssociation.ownedEnd)]
-		[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and (anEnd.aggregation.toString().equalsIgnoreCase('composite') or anEnd.aggregation.toString().equalsIgnoreCase('shared')))]
+		[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and (anEnd.aggregation.toString().equalsIgnoreCase('composite') or anEnd.aggregation.toString().equalsIgnoreCase('shared')) and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 			[for(anEnd : Property | anAssociation.ownedEnd)]	
 				[if(anEnd.aggregation.toString().equalsIgnoreCase('none'))]
 #include "[anEnd.type.name/].h"
@@ -92,24 +92,6 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 	[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aProperty.name/];
 				[/if]
 			[/for]
-			[for (anAssociation : Association | aClass.getAssociations())]
-				[for(anEnd : Property | anAssociation.ownedEnd)]
-					[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('protected'))]
-						[for(anEnd : Property | anAssociation.ownedEnd)]	
-							[if(anEnd.aggregation.toString().equalsIgnoreCase('none'))]
-	[if(anEnd.isStatic)]static [/if][anEnd.type.name/]* [anEnd.name/];
-							[/if]
-						[/for]
-					[/if]
-					[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('protected'))]
-						[for(anEnd : Property | anAssociation.ownedEnd)]	
-							[if(anEnd.aggregation.toString().equalsIgnoreCase('none'))]
-	[if(anEnd.isStatic)]static [/if]vector<[anEnd.type.name/]*> [anEnd.name/];
-							[/if]
-						[/for]
-					[/if]
-				[/for]
-			[/for]
 
 	public:
 		// [protected ('public')]
@@ -119,7 +101,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 		[/if]
 		[aClass.name/]();
 			[for (aProperty : Property | aClass.attribute)]
-				[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
+				[if (aProperty.visibility.toString().equalsIgnoreCase('private'))]
 		[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] get[aProperty.name.toUpperFirst()/]();
 		[if(aProperty.isStatic)]static [/if]void set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/]);
 				[/if]
@@ -131,7 +113,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 			[/for]
 			[for (anAssociation : Association | aClass.getAssociations())]
 				[for(anEnd : Property | anAssociation.ownedEnd)]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 		[if(otherEnd.isStatic)]static [/if][otherEnd.type.name/]* get[otherEnd.name.toUpperFirst()/]();
@@ -141,7 +123,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 							[/if]
 						[/for]
 					[/if]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 		[if(otherEnd.isStatic)]static [/if]vector<[otherEnd.type.name/]*> get[otherEnd.name.toUpperFirst()/]();
@@ -222,17 +204,17 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 [/for]
 
 [for (aProperty : Property | aClass.attribute)]
-	[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
+	[if (aProperty.visibility.toString().equalsIgnoreCase('private'))]
 [if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
 {
 	return [aProperty.name/];
 }
 
-	[if(aProperty.isReadOnly._not())]
-[if(aProperty.isStatic)]static [/if]void [aClass.name/]::set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/])
-{
-	[aProperty.name/] = _[aProperty.name/];
-}
+[if(aProperty.isReadOnly._not())]
+	[if(aProperty.isStatic)]static [/if]void [aClass.name/]::set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/])
+	{
+		[aProperty.name/] = _[aProperty.name/];
+	}
 	[/if]
 [/if]
 [/for]
@@ -251,7 +233,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 
 			[for (anAssociation : Association | aClass.getAssociations())]
 				[for(anEnd : Property | anAssociation.ownedEnd)]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 [otherEnd.type.name/]* [aClass.name/]::get[otherEnd.name.toUpperFirst()/]()
@@ -271,7 +253,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 							[/if]
 						[/for]
 					[/if]
-					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('public')._not())]
+					[if(anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(otherEnd : Property | anAssociation.ownedEnd)]	
 							[if(otherEnd.aggregation.toString().equalsIgnoreCase('none') and (otherEnd.type.name.equalsIgnoreCase(aClass.name)._not() or otherEnd.type.name.equalsIgnoreCase(anEnd.type.name)))]
 vector<[otherEnd.type.name/]*> [aClass.name/]::get[otherEnd.name.toUpperFirst()/]()
