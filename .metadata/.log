@@ -6166,3 +6166,522 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.sirius 4 0 2015-05-01 19:05:16.680
 !MESSAGE Found 2 main representations files (that means not referenced by another) in "minequest.model": main.aird and main.aird. A modeling project must contain only one.
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:00:53.543
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:00:53.666
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:00:57.929
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:00:57.969
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:00:58.085
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:21:38.680
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:21:38.730
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:21:38.766
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 21:21:38.886
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:03.057
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:03.099
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:03.132
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:44.260
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:44.298
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:44.331
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:53.649
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:53.687
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:02:53.724
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:05:32.429
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:05:32.467
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:05:32.503
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:15:22.237
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:15:22.279
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:15:22.312
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:16:10.344
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:16:10.380
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:16:10.412
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:16:10.689
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:27.053
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:27.094
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:27.127
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:57.362
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:57.432
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:31:57.468
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:43.232
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:43.272
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:43.307
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:53.150
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:53.208
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:32:53.243
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:33:07.063
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:33:07.104
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:33:07.137
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:34:30.323
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:34:30.362
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:34:30.397
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:36:42.541
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:36:42.602
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:36:42.639
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.sirius.diagram 2 0 2015-05-04 22:36:42.933
+!MESSAGE The semantic model was not correctly updated by the reconnect tool, the diagram part of the reconnect cannot be done
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:31.275
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:31.337
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:31.370
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:41.356
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:41.394
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:37:41.432
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:18.725
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:18.764
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:18.800
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:24.754
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:24.791
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 22:40:24.826
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:13:06.256
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:13:06.331
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:13:06.364
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:15:12.915
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:15:12.956
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:15:12.994
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:26.611
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:26.648
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:26.682
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:29.412
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:29.450
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:29.483
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:34.893
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:34.933
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:16:34.966
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:16.338
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:16.375
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:16.408
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:31.112
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:31.149
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:31.185
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:52.163
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:52.203
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:18:52.240
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:51:41.942
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:51:41.981
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-04 23:51:42.016
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:14.479
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:14.520
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:14.557
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:25.698
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:25.734
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:00:25.767
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:08:26.390
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:08:26.430
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:08:26.466
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:09:17.414
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:09:17.454
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:09:17.490
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:11:26.795
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:11:26.837
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:11:26.875
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:11.448
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:11.488
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:11.521
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:17.027
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:17.064
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:17.097
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:38.414
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:38.459
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:12:38.497
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:15.735
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:15.772
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:15.806
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:19.247
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:19.304
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:19.337
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:35.649
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:35.686
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:35.719
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:44.983
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:45.021
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:14:45.054
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:17.116
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:17.160
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:17.197
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:28.319
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:28.366
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 00:58:28.405
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:04:38.330
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:04:38.367
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:04:38.401
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:05:51.965
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:05:52.002
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:05:52.037
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:28.691
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:28.731
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:28.765
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:32.635
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:32.671
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 01:22:32.705
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:15:01.422
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:15:01.465
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:15:01.561
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:22.710
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:22.754
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:22.790
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:30.206
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:30.243
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:30.277
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:42.261
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:42.316
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:42.349
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:51.436
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:51.477
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:20:51.512
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:24:16.085
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:24:16.126
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:24:16.160
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:25:55.489
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:25:55.529
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:25:55.562
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:03.736
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:03.803
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:03.842
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:44.287
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:44.332
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:44.373
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:58.512
+!MESSAGE Compilation error for expression [FontFormat::bold_italic/] : Unknown type ([FontFormat, bold_italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:58.555
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
+
+!ENTRY org.eclipse.acceleo.parser 4 0 2015-05-05 12:27:58.593
+!MESSAGE Compilation error for expression [FontFormat::italic/] : Unknown type ([FontFormat, italic])
