@@ -60,11 +60,6 @@
         <ownedParameter xmi:id="_by0D8PJkEeSU2M_KtQEOUA" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_dye1oPJkEeSU2M_KtQEOUA" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_IV-qIPQMEeSIFroSQ3PJhQ" name="init">
-        <ownedParameter xmi:id="_Jpe5YPQMEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_j919cO67EeSYNYAkuIL-TQ" name="enginesToEngines" memberEnd="_j919ce67EeSYNYAkuIL-TQ _j92kgu67EeSYNYAkuIL-TQ" navigableOwnedEnd="_j92kgu67EeSYNYAkuIL-TQ">
       <ownedEnd xmi:id="_j919ce67EeSYNYAkuIL-TQ" name="instances" visibility="private" isStatic="true" type="_I3GJ0O0fEeSYNYAkuIL-TQ" aggregation="composite" association="_j919cO67EeSYNYAkuIL-TQ">

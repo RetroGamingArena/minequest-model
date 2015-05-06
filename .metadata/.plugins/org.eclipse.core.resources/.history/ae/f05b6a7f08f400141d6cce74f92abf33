@@ -60,11 +60,6 @@
         <ownedParameter xmi:id="_by0D8PJkEeSU2M_KtQEOUA" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_dye1oPJkEeSU2M_KtQEOUA" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_IV-qIPQMEeSIFroSQ3PJhQ" name="init">
-        <ownedParameter xmi:id="_Jpe5YPQMEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_j919cO67EeSYNYAkuIL-TQ" name="enginesToEngines" memberEnd="_j919ce67EeSYNYAkuIL-TQ _j92kgu67EeSYNYAkuIL-TQ" navigableOwnedEnd="_j92kgu67EeSYNYAkuIL-TQ">
       <ownedEnd xmi:id="_j919ce67EeSYNYAkuIL-TQ" name="instances" visibility="private" isStatic="true" type="_I3GJ0O0fEeSYNYAkuIL-TQ" aggregation="composite" association="_j919cO67EeSYNYAkuIL-TQ">
@@ -261,6 +256,10 @@
       <ownedAttribute xmi:id="_9w5Q8PM-EeSIFroSQ3PJhQ" name="textureSamplerID" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9w54APM-EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9w54AfM-EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_kPGm0PNAEeSIFroSQ3PJhQ" name="fontID" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kPHN4PNAEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kPHN4fNAEeSIFroSQ3PJhQ" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_b5HpsPP4EeSIFroSQ3PJhQ" name="vertexArrayID" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b5IQwPP4EeSIFroSQ3PJhQ"/>
