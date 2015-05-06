@@ -38,9 +38,14 @@ int main(int argc, char **argv)
 #include <glew.h>
 #include <GLFW/glfw3.h>
 #include <vector>
+#include <thread>
+#include <mutex>
 
 #include "../depends/glm/glm.hpp"
 #include "../depends/glm/gtc/matrix_transform.hpp"
+
+// [protected ('includes')]
+// [/protected]
 
 [for(superClass : Class | aClass.superClass)]
 #include "[superClass.name/].h"
@@ -224,14 +229,20 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 [/for]
 
 [for (aProperty : Property | aClass.attribute)]
+	[if (aProperty.isStatic)]
+[aProperty.type.name/] [aClass.name/]::[aProperty.name/] = [aProperty.defaultValue.name/];	
+	[/if]
+[/for]
+
+[for (aProperty : Property | aClass.attribute)]
 	[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
-[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
+[if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
 {
 	return [aProperty.name/];
 }
 
 	[if(aProperty.isReadOnly._not())]
-[if(aProperty.isStatic)]static [/if]void [aClass.name/]::set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/])
+void [aClass.name/]::set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/])
 {
 	[aProperty.name/] = _[aProperty.name/];
 }
@@ -264,7 +275,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 }
 
 								[if(otherEnd.isReadOnly._not())]
-[if(otherEnd.isStatic)]static [/if]void [aClass.name/]::set[otherEnd.name.toUpperFirst()/]([otherEnd.type.name/]* _[otherEnd.name/])
+void [aClass.name/]::set[otherEnd.name.toUpperFirst()/]([otherEnd.type.name/]* _[otherEnd.name/])
 {
 	[otherEnd.name/] = _[otherEnd.name/];
 }
@@ -284,7 +295,7 @@ vector<[otherEnd.type.name/]*> [aClass.name/]::get[otherEnd.name.toUpperFirst()/
 }
 
 								[if(otherEnd.isReadOnly._not())]
-[if(otherEnd.isStatic)]static [/if]void [aClass.name/]::set[otherEnd.name.toUpperFirst()/]([otherEnd.type.name/]* _[otherEnd.name/])
+void [aClass.name/]::set[otherEnd.name.toUpperFirst()/]([otherEnd.type.name/]* _[otherEnd.name/])
 {
 	[otherEnd.name/] = _[otherEnd.name/];
 }
