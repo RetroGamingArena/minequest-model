@@ -511,9 +511,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0GZ3oPP5EeSIFroSQ3PJhQ" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_IOrLoPQ1EeSIFroSQ3PJhQ" name="DebugUI">
-      <generalization xmi:id="_c7CF8PQ1EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MKTt4PM8EeSIFroSQ3PJhQ" name="char*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fQwXUPNdEeSIFroSQ3PJhQ" name="unsigned char*"/>
