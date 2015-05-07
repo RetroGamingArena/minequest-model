@@ -65,6 +65,9 @@ int main(int argc, char **argv)
 
 using namespace std;
 
+// [protected ('class import')]
+// [/protected]
+
 class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') separator (', ')]public [superClass.name/][/for]
 {
 			[for (anAssociation : Association | aClass.getAssociations())]
@@ -131,7 +134,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 			[/for]
 			[for (anOperation : Operation | aClass.ownedOperation)]
 				[if(anOperation.visibility.toString().equalsIgnoreCase('public'))]
-		[if(anOperation.isStatic)]static [/if][if(anOperation.isAbstract)]virtual [/if][anOperation.type.name/] [anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if])[if(anOperation.isAbstract)] = 0[/if];
+		[if(anOperation.isStatic)]static [/if][if(anOperation.isAbstract)]virtual [/if][anOperation.type.name/][if(anOperation.type.name.equalsIgnoreCase('Task'))]*[/if] [anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if])[if(anOperation.isAbstract)] = 0[/if];
 				[/if]
 			[/for]
 			[for (anAssociation : Association | aClass.getAssociations())]
@@ -163,7 +166,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 				[for (anOperation : Operation | superClass.ownedOperation)]
 					[if(anOperation.visibility.toString().equalsIgnoreCase('public'))]
 						[if(anOperation.isAbstract)]
-		[if(anOperation.isStatic)]static [/if][anOperation.type.name/] [anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if]);
+		[if(anOperation.isStatic)]static [/if][anOperation.type.name/][if(anOperation.type.name.equalsIgnoreCase('Task'))]*[/if] [anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if]);
 						[/if]
 					[/if]
 				[/for]
@@ -205,7 +208,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 		[for (anOperation : Operation | superClass.ownedOperation)]
 			[if(anOperation.visibility.toString().equalsIgnoreCase('public'))]
 				[if(anOperation.isAbstract)]
-[anOperation.type.name/] [aClass.name/]::[anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if])
+[anOperation.type.name/][if(anOperation.type.name.equalsIgnoreCase('Task'))]*[/if] [aClass.name/]::[anOperation.name/]([if(anOperation.generateParameters().size()>2)][anOperation.generateParameters().substring(1, anOperation.generateParameters().size()-2)/][/if])
 {
 	// [protected (anOperation.name)]
 	// [/protected]

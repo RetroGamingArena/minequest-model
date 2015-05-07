@@ -566,6 +566,152 @@
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ddK1kPQoEeSIFroSQ3PJhQ" name="bool"/>
   <packagedElement xmi:type="uml:Package" xmi:id="__bnbkPQpEeSIFroSQ3PJhQ" name="world">
-    <packagedElement xmi:type="uml:Class" xmi:id="_BDsMoPQqEeSIFroSQ3PJhQ" name="World"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BDsMoPQqEeSIFroSQ3PJhQ" name="World">
+      <generalization xmi:id="_ysV8gPQ9EeSIFroSQ3PJhQ" general="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
+      <ownedAttribute xmi:id="_FbwwYPQ7EeSIFroSQ3PJhQ" name="size" visibility="private" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ" isReadOnly="true">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FbwwYfQ7EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbxXcPQ7EeSIFroSQ3PJhQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BjeQ8PTPEeSIFroSQ3PJhQ" name="chunkIndice" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bje4APTPEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BjffEPTPEeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MY4lcPQ5EeSIFroSQ3PJhQ" name="worldGenerator[0..1]" visibility="private" memberEnd="_MY4lcfQ5EeSIFroSQ3PJhQ _MY6aoPQ5EeSIFroSQ3PJhQ" navigableOwnedEnd="_MY6aoPQ5EeSIFroSQ3PJhQ">
+      <ownedEnd xmi:id="_MY4lcfQ5EeSIFroSQ3PJhQ" name="world" visibility="private" type="_BDsMoPQqEeSIFroSQ3PJhQ" aggregation="composite" association="_MY4lcPQ5EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MY5zkPQ5EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MY5zkfQ5EeSIFroSQ3PJhQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_MY6aoPQ5EeSIFroSQ3PJhQ" name="worldGenerator" visibility="private" type="_7jB4EPQ3EeSIFroSQ3PJhQ" association="_MY4lcPQ5EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MY6aofQ5EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MY7BsPQ5EeSIFroSQ3PJhQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_85c7oPQ7EeSIFroSQ3PJhQ" name="Chunk">
+      <ownedAttribute xmi:id="_j8bA4PQ8EeSIFroSQ3PJhQ" name="p" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j8bn8PQ8EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j8bn8fQ8EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_nYxL8PQ8EeSIFroSQ3PJhQ" name="q" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nYxL8fQ8EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nYxzAPQ8EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4ZSGoPQ8EeSIFroSQ3PJhQ" name="r" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4ZStsPQ8EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4ZStsfQ8EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="__o7ZoPQ7EeSIFroSQ3PJhQ" name="worldsToChunks" visibility="private" memberEnd="__o8AsPQ7EeSIFroSQ3PJhQ __o9O0PQ7EeSIFroSQ3PJhQ" navigableOwnedEnd="__o9O0PQ7EeSIFroSQ3PJhQ">
+      <ownedEnd xmi:id="__o8AsPQ7EeSIFroSQ3PJhQ" name="worlds" visibility="private" type="_BDsMoPQqEeSIFroSQ3PJhQ" isReadOnly="true" aggregation="shared" association="__o7ZoPQ7EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__o8nwPQ7EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__o8nwfQ7EeSIFroSQ3PJhQ" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="__o9O0PQ7EeSIFroSQ3PJhQ" name="chunks" visibility="private" type="_85c7oPQ7EeSIFroSQ3PJhQ" isReadOnly="true" association="__o7ZoPQ7EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__o9O0fQ7EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__o914PQ7EeSIFroSQ3PJhQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KAdEUPTPEeSIFroSQ3PJhQ" name="ChunkTask">
+      <generalization xmi:id="_O_FhgPTPEeSIFroSQ3PJhQ" general="_ttbgkPQ_EeSIFroSQ3PJhQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0motsPQ3EeSIFroSQ3PJhQ" name="generator">
+    <packagedElement xmi:type="uml:Class" xmi:id="_7jB4EPQ3EeSIFroSQ3PJhQ" name="WorldGenerator"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_F2BK0PQ4EeSIFroSQ3PJhQ" name="PerlinGenerator">
+      <generalization xmi:id="_vDMd0PQ4EeSIFroSQ3PJhQ" general="_7jB4EPQ3EeSIFroSQ3PJhQ"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fLFY0PQ8EeSIFroSQ3PJhQ" name="float"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_jJujMPQ9EeSIFroSQ3PJhQ" name="thread">
+    <packagedElement xmi:type="uml:Class" xmi:id="_nVpxEPQ9EeSIFroSQ3PJhQ" name="Pool" isAbstract="true">
+      <ownedAttribute xmi:id="_0y71kPQ9EeSIFroSQ3PJhQ" name="threadCount" visibility="protected" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0y8coPQ9EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0y8cofQ9EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_EgvLMPQ-EeSIFroSQ3PJhQ" name="running" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EgvLMfQ-EeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EgvyQPQ-EeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8tTR0PRCEeSIFroSQ3PJhQ" name="work" visibility="private" type="_CuZgIPQYEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8tT44PRCEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8tT44fRCEeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_p-vbUPTOEeSIFroSQ3PJhQ" name="mutex" visibility="protected" type="_FOHq4PQYEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p-yeoPTOEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p-zFsPTOEeSIFroSQ3PJhQ" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_ojxUkPQ-EeSIFroSQ3PJhQ" name="start">
+        <ownedParameter xmi:id="_rUNb4PQ-EeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_IYTyUPRBEeSIFroSQ3PJhQ" name="buildTask" isAbstract="true">
+        <ownedParameter xmi:id="_KebxUPRBEeSIFroSQ3PJhQ" type="_ttbgkPQ_EeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_woUFcPTQEeSIFroSQ3PJhQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_woUsgPTQEeSIFroSQ3PJhQ" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_wqqb0PRBEeSIFroSQ3PJhQ" name="run" isStatic="true">
+        <ownedParameter xmi:id="_UlTeMPRCEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UlUFQPRCEeSIFroSQ3PJhQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UlUFQfRCEeSIFroSQ3PJhQ" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_wqqb0fRBEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_RpiLAPTOEeSIFroSQ3PJhQ" name="hasNext" isAbstract="true">
+        <ownedParameter xmi:id="_bbhCcPTOEeSIFroSQ3PJhQ" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ttbgkPQ_EeSIFroSQ3PJhQ" name="Task">
+      <ownedOperation xmi:id="_a47A0PTQEeSIFroSQ3PJhQ" name="run" isStatic="true">
+        <ownedParameter xmi:id="_a47A0fTQEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a47A0vTQEeSIFroSQ3PJhQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a47A0_TQEeSIFroSQ3PJhQ" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_a47A1PTQEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3ESiQPQ_EeSIFroSQ3PJhQ" name="Thread">
+      <ownedAttribute xmi:id="_SgB_EPTXEeSsEf-9y1lS0g" name="mutex" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SgDNMPTXEeSsEf-9y1lS0g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SgDNMfTXEeSsEf-9y1lS0g" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_4kU8MPRAEeSIFroSQ3PJhQ" name="start">
+        <ownedParameter xmi:id="_4kU8MfRAEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_-GKi8PTWEeSsEf-9y1lS0g" name="isBusy">
+        <ownedParameter xmi:id="_AELu0PTXEeSsEf-9y1lS0g" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Eb5ckPRAEeSIFroSQ3PJhQ" name="poolsToThreads" visibility="private" memberEnd="_Eb5ckfRAEeSIFroSQ3PJhQ _Eb6qsfRAEeSIFroSQ3PJhQ" navigableOwnedEnd="_Eb6qsfRAEeSIFroSQ3PJhQ">
+      <ownedEnd xmi:id="_Eb5ckfRAEeSIFroSQ3PJhQ" name="pools" visibility="private" type="_nVpxEPQ9EeSIFroSQ3PJhQ" isReadOnly="true" aggregation="shared" association="_Eb5ckPRAEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Eb6DoPRAEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Eb6qsPRAEeSIFroSQ3PJhQ" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Eb6qsfRAEeSIFroSQ3PJhQ" name="threads" visibility="private" type="_3ESiQPQ_EeSIFroSQ3PJhQ" isReadOnly="true" association="_Eb5ckPRAEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Eb7RwPRAEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Eb740PRAEeSIFroSQ3PJhQ" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_j3-B4PRAEeSIFroSQ3PJhQ" name="task[*]" visibility="private" memberEnd="_j3-o8PRAEeSIFroSQ3PJhQ _j4AeIfRAEeSIFroSQ3PJhQ" navigableOwnedEnd="_j4AeIfRAEeSIFroSQ3PJhQ">
+      <ownedEnd xmi:id="_j3-o8PRAEeSIFroSQ3PJhQ" name="threads" visibility="private" type="_3ESiQPQ_EeSIFroSQ3PJhQ" aggregation="composite" association="_j3-B4PRAEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j3_3EPRAEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j4AeIPRAEeSIFroSQ3PJhQ" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_j4AeIfRAEeSIFroSQ3PJhQ" name="task" visibility="private" type="_ttbgkPQ_EeSIFroSQ3PJhQ" association="_j3-B4PRAEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_j4BFMPRAEeSIFroSQ3PJhQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_j4BsQPRAEeSIFroSQ3PJhQ" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
