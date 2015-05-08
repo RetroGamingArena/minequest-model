@@ -780,11 +780,6 @@
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_R6f1kPWGEeSjV6l1_rfr4w" name="isRunning">
-        <ownedParameter xmi:id="_TMtEUPWGEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ttbgkPQ_EeSIFroSQ3PJhQ" name="Task" isAbstract="true">
       <ownedOperation xmi:id="_a47A0PTQEeSIFroSQ3PJhQ" name="run" isAbstract="true">

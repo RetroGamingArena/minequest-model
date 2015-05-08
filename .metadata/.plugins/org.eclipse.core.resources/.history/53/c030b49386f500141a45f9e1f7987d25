@@ -2119,6 +2119,11 @@
               <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </endLabelStyleDescription>
           </computedStyleDescriptions>
+          <computedStyleDescriptions xmi:type="style:SquareDescription" xmi:id="_disnwvWGEeSjV6l1_rfr4w" labelFormat="italic" labelExpression="service:computeUmlLabel" labelAlignment="LEFT" sizeComputationExpression="1">
+            <borderColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xmi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </computedStyleDescriptions>
           <cache xmi:type="diagram:DiagramElementMapping2ModelElement" xmi:id="_j9618O67EeSYNYAkuIL-TQ">
             <key xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Association']"/>
             <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_fs4uwPWDEeSjV6l1_rfr4w">
@@ -2441,6 +2446,14 @@
               <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_fsRDtfWDEeSjV6l1_rfr4w" key="_eMG68PTzEeSsEf-9y1lS0g">
                 <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_fsRqwfWDEeSjV6l1_rfr4w" value="_fsRqwPWDEeSjV6l1_rfr4w">
                   <key xmi:type="uml:Class" href="main.uml#_CeKH0PTgEeSsEf-9y1lS0g"/>
+                </value>
+              </value>
+            </value>
+            <value xmi:type="diagram:ModelElement2ViewVariable" xmi:id="_disnwPWGEeSjV6l1_rfr4w">
+              <key xmi:type="uml:Operation" href="main.uml#_R6f1kPWGEeSjV6l1_rfr4w"/>
+              <value xmi:type="diagram:ViewVariable2ContainerVariable" xmi:id="_disnwfWGEeSjV6l1_rfr4w" key="_R8CGoPWGEeSjV6l1_rfr4w">
+                <value xmi:type="diagram:ContainerVariable2StyleDescription" xmi:id="_disnw_WGEeSjV6l1_rfr4w" value="_disnwvWGEeSjV6l1_rfr4w">
+                  <key xmi:type="uml:Class" href="main.uml#_nVpxEPQ9EeSIFroSQ3PJhQ"/>
                 </value>
               </value>
             </value>
@@ -4968,11 +4981,10 @@
             <target xmi:type="uml:Operation" href="main.uml#_R6f1kPWGEeSjV6l1_rfr4w"/>
             <semanticElements xmi:type="uml:Operation" href="main.uml#_R6f1kPWGEeSjV6l1_rfr4w"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_TMtEUPWGEeSjV6l1_rfr4w"/>
-            <ownedStyle xmi:type="diagram:Square" xmi:id="_kom6gPWGEeSjV6l1_rfr4w" labelAlignment="LEFT">
-              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_kom6gfWGEeSjV6l1_rfr4w"/>
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
-              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_kom6gvWGEeSjV6l1_rfr4w"/>
-              <color xmi:type="viewpoint:RGBValues" xmi:id="_kom6g_WGEeSjV6l1_rfr4w" red="136" green="136" blue="136"/>
+            <ownedStyle xmi:type="diagram:Square" xmi:id="_ditO0PWGEeSjV6l1_rfr4w" labelFormat="italic" labelAlignment="LEFT" description="_disnwvWGEeSjV6l1_rfr4w">
+              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_ditO0fWGEeSjV6l1_rfr4w"/>
+              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_ditO0vWGEeSjV6l1_rfr4w"/>
+              <color xmi:type="viewpoint:RGBValues" xmi:id="_ditO0_WGEeSjV6l1_rfr4w" red="136" green="136" blue="136"/>
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
           </ownedElements>

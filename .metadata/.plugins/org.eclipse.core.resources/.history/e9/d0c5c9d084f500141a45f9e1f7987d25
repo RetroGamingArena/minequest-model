@@ -587,7 +587,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7JlQkPQnEeSIFroSQ3PJhQ" name="IterativeProcessor">
       <generalization xmi:id="_Xtti8PQpEeSIFroSQ3PJhQ" general="_y3hTwPQnEeSIFroSQ3PJhQ"/>
-      <generalization xmi:id="_ztjLQPWEEeSjV6l1_rfr4w" general="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ddK1kPQoEeSIFroSQ3PJhQ" name="bool"/>
@@ -777,11 +776,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_RpiLAPTOEeSIFroSQ3PJhQ" name="hasNext" isAbstract="true">
         <ownedParameter xmi:id="_bbhCcPTOEeSIFroSQ3PJhQ" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_R6f1kPWGEeSjV6l1_rfr4w" name="isRunning">
-        <ownedParameter xmi:id="_TMtEUPWGEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>

@@ -365,26 +365,18 @@
         </ownedParameter>
         <ownedParameter xmi:id="_oAybcPV_EeSjV6l1_rfr4w" name="indice" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_6Tv1cPV_EeSjV6l1_rfr4w" name="bufferizeVertex">
-        <ownedParameter xmi:id="_6Tv1cfV_EeSjV6l1_rfr4w" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_6Tv1cvV_EeSjV6l1_rfr4w" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_aF5jAPWBEeSjV6l1_rfr4w" name="y" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_b6Ju4PWBEeSjV6l1_rfr4w" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_0qSnsPWBEeSjV6l1_rfr4w" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_E6VHsPWCEeSjV6l1_rfr4w" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_WIVr0PWCEeSjV6l1_rfr4w" name="bufferizeSquare">
-        <ownedParameter xmi:id="_WIVr0fWCEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
+      <ownedOperation xmi:id="_6Tv1cPV_EeSjV6l1_rfr4w" name="bufferizeSquare">
+        <ownedParameter xmi:id="_6Tv1cfV_EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
           <name xsi:nil="true"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_WIVr0vWCEeSjV6l1_rfr4w" name="x1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr0_WCEeSjV6l1_rfr4w" name="y1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr1PWCEeSjV6l1_rfr4w" name="z1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr1fWCEeSjV6l1_rfr4w" name="x2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr1vWCEeSjV6l1_rfr4w" name="y2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr1_WCEeSjV6l1_rfr4w" name="z2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr2PWCEeSjV6l1_rfr4w" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_WIVr2fWCEeSjV6l1_rfr4w" name="ao" type="_7qIHoPWBEeSjV6l1_rfr4w"/>
+        <ownedParameter xmi:id="_6Tv1cvV_EeSjV6l1_rfr4w" name="x1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_aF5jAPWBEeSjV6l1_rfr4w" name="y1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_b6Ju4PWBEeSjV6l1_rfr4w" name="z1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_trb_MPWBEeSjV6l1_rfr4w" name="x2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_vtf9kPWBEeSjV6l1_rfr4w" name="y2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_yq90QPWBEeSjV6l1_rfr4w" name="z2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_0qSnsPWBEeSjV6l1_rfr4w" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_E6VHsPWCEeSjV6l1_rfr4w" name="ao" type="_7qIHoPWBEeSjV6l1_rfr4w"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">
@@ -587,7 +579,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7JlQkPQnEeSIFroSQ3PJhQ" name="IterativeProcessor">
       <generalization xmi:id="_Xtti8PQpEeSIFroSQ3PJhQ" general="_y3hTwPQnEeSIFroSQ3PJhQ"/>
-      <generalization xmi:id="_ztjLQPWEEeSjV6l1_rfr4w" general="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ddK1kPQoEeSIFroSQ3PJhQ" name="bool"/>
@@ -777,11 +768,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_RpiLAPTOEeSIFroSQ3PJhQ" name="hasNext" isAbstract="true">
         <ownedParameter xmi:id="_bbhCcPTOEeSIFroSQ3PJhQ" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_R6f1kPWGEeSjV6l1_rfr4w" name="isRunning">
-        <ownedParameter xmi:id="_TMtEUPWGEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
