@@ -820,6 +820,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a47A0vTQEeSIFroSQ3PJhQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a47A0_TQEeSIFroSQ3PJhQ" value="1"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_a47A1PTQEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3ESiQPQ_EeSIFroSQ3PJhQ" name="Thread">

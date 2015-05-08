@@ -343,11 +343,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_idVgwPKcEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_idWH0PKcEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_aTeZEPWOEeSjV6l1_rfr4w" name="init">
-        <ownedParameter xmi:id="_fMBcYPWOEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vSnKEPKcEeSU2M_KtQEOUA" name="VertexBuffer">
       <generalization xmi:id="_xr3rAPKdEeSU2M_KtQEOUA" general="_jJMeAPKYEeSU2M_KtQEOUA"/>
@@ -355,11 +350,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FnBUYPKqEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FnB7cPKqEeSU2M_KtQEOUA" value="*"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_zPcj4PWNEeSjV6l1_rfr4w" name="init">
-        <ownedParameter xmi:id="_0wop0PWNEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xXTlsPKcEeSU2M_KtQEOUA" name="IndiceBuffer">
       <generalization xmi:id="_ylUbgPKdEeSU2M_KtQEOUA" general="_jJMeAPKYEeSU2M_KtQEOUA"/>
@@ -370,13 +360,13 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_W3rdgPKiEeSU2M_KtQEOUA" name="DoubleBuffer">
       <ownedOperation xmi:id="_l16fUPV_EeSjV6l1_rfr4w" name="bufferizeIndice">
-        <ownedParameter xmi:id="_qPgVwPV_EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+        <ownedParameter xmi:id="_qPgVwPV_EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_oAybcPV_EeSjV6l1_rfr4w" name="indice" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
       <ownedOperation xmi:id="_6Tv1cPV_EeSjV6l1_rfr4w" name="bufferizeVertex">
-        <ownedParameter xmi:id="_6Tv1cfV_EeSjV6l1_rfr4w" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return"/>
+        <ownedParameter xmi:id="_6Tv1cfV_EeSjV6l1_rfr4w" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_6Tv1cvV_EeSjV6l1_rfr4w" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_aF5jAPWBEeSjV6l1_rfr4w" name="y" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_b6Ju4PWBEeSjV6l1_rfr4w" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
@@ -384,7 +374,7 @@
         <ownedParameter xmi:id="_E6VHsPWCEeSjV6l1_rfr4w" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
       <ownedOperation xmi:id="_WIVr0PWCEeSjV6l1_rfr4w" name="bufferizeSquare">
-        <ownedParameter xmi:id="_WIVr0fWCEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+        <ownedParameter xmi:id="_WIVr0fWCEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_WIVr0vWCEeSjV6l1_rfr4w" name="x1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
@@ -598,23 +588,6 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_7JlQkPQnEeSIFroSQ3PJhQ" name="IterativeProcessor">
       <generalization xmi:id="_Xtti8PQpEeSIFroSQ3PJhQ" general="_y3hTwPQnEeSIFroSQ3PJhQ"/>
       <generalization xmi:id="_ztjLQPWEEeSjV6l1_rfr4w" general="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
-      <ownedAttribute xmi:id="_cE27UPWHEeSjV6l1_rfr4w" name="chunkIndice" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cE3iYPWHEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cE3iYfWHEeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_DD0DQPWIEeSjV6l1_rfr4w" name="ChunkProcessorTask">
-      <generalization xmi:id="_TmOFoPWIEeSjV6l1_rfr4w" general="_ttbgkPQ_EeSIFroSQ3PJhQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_MOhfUPWIEeSjV6l1_rfr4w" name="chunk[*]" visibility="private" memberEnd="_MOiGYPWIEeSjV6l1_rfr4w _MOitcPWIEeSjV6l1_rfr4w" navigableOwnedEnd="_MOitcPWIEeSjV6l1_rfr4w">
-      <ownedEnd xmi:id="_MOiGYPWIEeSjV6l1_rfr4w" name="chunkProcessorTasks" visibility="private" type="_DD0DQPWIEeSjV6l1_rfr4w" aggregation="composite" association="_MOhfUPWIEeSjV6l1_rfr4w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MOiGYfWIEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MOiGYvWIEeSjV6l1_rfr4w" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_MOitcPWIEeSjV6l1_rfr4w" name="chunk" visibility="private" type="_85c7oPQ7EeSIFroSQ3PJhQ" association="_MOhfUPWIEeSjV6l1_rfr4w">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MOitcfWIEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MOitcvWIEeSjV6l1_rfr4w" value="1"/>
-      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ddK1kPQoEeSIFroSQ3PJhQ" name="bool"/>
@@ -820,6 +793,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a47A0vTQEeSIFroSQ3PJhQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a47A0_TQEeSIFroSQ3PJhQ" value="1"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_a47A1PTQEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3ESiQPQ_EeSIFroSQ3PJhQ" name="Thread">
@@ -836,14 +810,6 @@
         <ownedParameter xmi:id="_AELu0PTXEeSsEf-9y1lS0g" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_F4HLUPWSEeSjV6l1_rfr4w" name="run" isStatic="true">
-        <ownedParameter xmi:id="_F4HLUfWSEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F4HLUvWSEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F4HLU_WSEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_F4HLVPWSEeSjV6l1_rfr4w" name="* thread" type="_3ESiQPQ_EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Eb5ckPRAEeSIFroSQ3PJhQ" name="poolsToThreads" visibility="private" memberEnd="_Eb5ckfRAEeSIFroSQ3PJhQ _Eb6qsfRAEeSIFroSQ3PJhQ" navigableOwnedEnd="_Eb6qsfRAEeSIFroSQ3PJhQ">
@@ -886,11 +852,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_53ebEPV9EeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_53ebEfV9EeSjV6l1_rfr4w" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_Kns3AfV-EeSjV6l1_rfr4w" name="0"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="__B4soPWMEeSjV6l1_rfr4w" name="subSize" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__B4sofWMEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__B5TsPWMEeSjV6l1_rfr4w" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_SjVTAfWNEeSjV6l1_rfr4w" name="0"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_oJH04PV7EeSjV6l1_rfr4w" name="bufferize">
         <ownedParameter xmi:id="_pps20PV7EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">

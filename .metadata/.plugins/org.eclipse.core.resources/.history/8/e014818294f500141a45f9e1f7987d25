@@ -133,7 +133,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 		[aClass.name/]([aClass.generateCopyCtorParameters()/]);
 		[/if]
 		[aClass.name/]();
-		~[aClass.name/]();
+		[aClass.name/]();
 			[for (aProperty : Property | aClass.attribute)]
 				[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
 		[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] get[aProperty.name.toUpperFirst()/]();
@@ -205,12 +205,6 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 // [/protected]
 {
 	// [protected ('constructor')]
-	// [/protected]
-}
-
-[aClass.name/]::~[aClass.name/]()
-{
-	// [protected ('destructor')]
 	// [/protected]
 }
 

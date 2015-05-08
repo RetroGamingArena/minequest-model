@@ -343,11 +343,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_idVgwPKcEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_idWH0PKcEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_aTeZEPWOEeSjV6l1_rfr4w" name="init">
-        <ownedParameter xmi:id="_fMBcYPWOEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vSnKEPKcEeSU2M_KtQEOUA" name="VertexBuffer">
       <generalization xmi:id="_xr3rAPKdEeSU2M_KtQEOUA" general="_jJMeAPKYEeSU2M_KtQEOUA"/>
@@ -355,11 +350,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FnBUYPKqEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FnB7cPKqEeSU2M_KtQEOUA" value="*"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_zPcj4PWNEeSjV6l1_rfr4w" name="init">
-        <ownedParameter xmi:id="_0wop0PWNEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xXTlsPKcEeSU2M_KtQEOUA" name="IndiceBuffer">
       <generalization xmi:id="_ylUbgPKdEeSU2M_KtQEOUA" general="_jJMeAPKYEeSU2M_KtQEOUA"/>
@@ -820,6 +810,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a47A0vTQEeSIFroSQ3PJhQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a47A0_TQEeSIFroSQ3PJhQ" value="1"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_a47A1PTQEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3ESiQPQ_EeSIFroSQ3PJhQ" name="Thread">
@@ -836,14 +827,6 @@
         <ownedParameter xmi:id="_AELu0PTXEeSsEf-9y1lS0g" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_F4HLUPWSEeSjV6l1_rfr4w" name="run" isStatic="true">
-        <ownedParameter xmi:id="_F4HLUfWSEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_F4HLUvWSEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_F4HLU_WSEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_F4HLVPWSEeSjV6l1_rfr4w" name="* thread" type="_3ESiQPQ_EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Eb5ckPRAEeSIFroSQ3PJhQ" name="poolsToThreads" visibility="private" memberEnd="_Eb5ckfRAEeSIFroSQ3PJhQ _Eb6qsfRAEeSIFroSQ3PJhQ" navigableOwnedEnd="_Eb6qsfRAEeSIFroSQ3PJhQ">

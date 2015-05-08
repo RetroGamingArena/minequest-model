@@ -208,12 +208,6 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 	// [/protected]
 }
 
-[aClass.name/]::~[aClass.name/]()
-{
-	// [protected ('destructor')]
-	// [/protected]
-}
-
 // [protected ('methods')]
 // [/protected]
 
