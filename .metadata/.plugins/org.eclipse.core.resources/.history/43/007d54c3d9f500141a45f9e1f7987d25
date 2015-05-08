@@ -288,27 +288,6 @@
         <ownedParameter xmi:id="_Tap2nvXPEeSjV6l1_rfr4w" name="xoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_Tap2n_XPEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_hMpbQPXZEeSjV6l1_rfr4w" name="getRealPosition" isAbstract="true">
-        <ownedParameter xmi:id="_jgcC0PXZEeSjV6l1_rfr4w" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r7m4UPXZEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r7nfYPXZEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_tOyXcPXZEeSjV6l1_rfr4w" name="getRealCenter" isAbstract="true">
-        <ownedParameter xmi:id="_tOyXcfXZEeSjV6l1_rfr4w" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tOyXcvXZEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tOyXc_XZEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_vNlmcPXZEeSjV6l1_rfr4w" name="getRealUp" isAbstract="true">
-        <ownedParameter xmi:id="_vNlmcfXZEeSjV6l1_rfr4w" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vNlmcvXZEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vNlmc_XZEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-9t9oPHDEeSU2M_KtQEOUA" name="TrackBallCamera">
       <generalization xmi:id="_BW6CkPHEEeSU2M_KtQEOUA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
