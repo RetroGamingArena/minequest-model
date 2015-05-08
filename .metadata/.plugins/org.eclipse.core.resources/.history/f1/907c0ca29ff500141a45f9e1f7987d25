@@ -6,7 +6,7 @@
 [/template]
 
 [template public generateCopyCtorParameters(aClass : Class)]
-[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] _[aProperty.name/][/for]
+[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] _[aProperty.name/][/for]
 [/template]
 
 [template public generateElement(aPackage : Package)]
@@ -84,7 +84,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 					[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and anEnd.aggregation.toString().equalsIgnoreCase('shared') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
 						[for(anEnd : Property | anAssociation.ownedEnd)]	
 							[if(anEnd.aggregation.toString().equalsIgnoreCase('none'))]
-	[if(anEnd.isStatic)]static [/if]vector<[anEnd.type.name/]*> [anEnd.name/];
+	[if(anEnd.isStatic)]static [/if]vector<[anEnd.type.name/]*>& [anEnd.name/];
 							[/if]
 						[/for]
 					[/if]
@@ -92,7 +92,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 			[/for]
 			[for (aProperty : Property | aClass.attribute)]
 				[if (aProperty.visibility.toString().equalsIgnoreCase('private'))]
-	[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] [aProperty.name/];
+	[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aProperty.name/];
 				[/if]
 			[/for]
 
@@ -136,7 +136,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 		~[aClass.name/]();
 			[for (aProperty : Property | aClass.attribute)]
 				[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
-		[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] get[aProperty.name.toUpperFirst()/]();
+		[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] get[aProperty.name.toUpperFirst()/]();
 		[if(aProperty.isStatic)]static [/if]void set[aProperty.name.toUpperFirst()/]([aProperty.type.name/] _[aProperty.name/]);
 				[/if]
 			[/for]
@@ -192,7 +192,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 // [/protected]
 
 [if(aClass.generateCopyCtorParameters().equalsIgnoreCase('')._not())]
-[aClass.name/]::[aClass.name/]([for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] _[aProperty.name/][/for])
+[aClass.name/]::[aClass.name/]([for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] _[aProperty.name/][/for])
 {
 	[for (aProperty : Property | aClass.attribute)]
 	[aProperty.name/] = _[aProperty.name/];
@@ -253,7 +253,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 
 [for (aProperty : Property | aClass.attribute)]
 	[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
-[if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
+[if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
 {
 	return [aProperty.name/];
 }

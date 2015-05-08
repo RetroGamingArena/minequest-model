@@ -6,7 +6,7 @@
 [/template]
 
 [template public generateCopyCtorParameters(aClass : Class)]
-[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] _[aProperty.name/][/for]
+[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] _[aProperty.name/][/for]
 [/template]
 
 [template public generateElement(aPackage : Package)]
@@ -192,7 +192,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 // [/protected]
 
 [if(aClass.generateCopyCtorParameters().equalsIgnoreCase('')._not())]
-[aClass.name/]::[aClass.name/]([for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] _[aProperty.name/][/for])
+[aClass.name/]::[aClass.name/]([for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] _[aProperty.name/][/for])
 {
 	[for (aProperty : Property | aClass.attribute)]
 	[aProperty.name/] = _[aProperty.name/];
@@ -255,7 +255,7 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 	[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
 [if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
 {
-	return [aProperty.name/];
+	return [if(aProperty.upper = -1)]&[/if][aProperty.name/];
 }
 
 	[if(aProperty.isReadOnly._not())]

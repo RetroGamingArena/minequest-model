@@ -132,6 +132,19 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_1Ci5QO_nEeSYNYAkuIL-TQ" name="void"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_gFwi8PC7EeSU2M_KtQEOUA" name="GLFWwindow*"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_IhmNsPC-EeSU2M_KtQEOUA" name="scene">
+    <packagedElement xmi:type="uml:Class" xmi:id="_MsaBQPC-EeSU2M_KtQEOUA" name="Scene" isAbstract="true">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZzC8EPKaEeSU2M_KtQEOUA" name="Scene activity"/>
+      <ownedOperation xmi:id="_7ecqEPJ2EeSU2M_KtQEOUA" name="init" isAbstract="true">
+        <ownedParameter xmi:id="_8kTCYPJ3EeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Ylge0PKCEeSU2M_KtQEOUA" name="render" isAbstract="true">
+        <ownedParameter xmi:id="_fYDJoPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ar2y8PDeEeSU2M_KtQEOUA" name="VBOScene">
       <generalization xmi:id="_Yu53IPKdEeSU2M_KtQEOUA" general="_MsaBQPC-EeSU2M_KtQEOUA"/>
     </packagedElement>
@@ -197,19 +210,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4WK1IPQkEeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4WK1IfQkEeSIFroSQ3PJhQ" value="*"/>
       </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MsaBQPC-EeSU2M_KtQEOUA" name="Scene" isAbstract="true">
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZzC8EPKaEeSU2M_KtQEOUA" name="Scene activity"/>
-      <ownedOperation xmi:id="_7ecqEPJ2EeSU2M_KtQEOUA" name="init" isAbstract="true">
-        <ownedParameter xmi:id="_8kTCYPJ3EeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Ylge0PKCEeSU2M_KtQEOUA" name="render" isAbstract="true">
-        <ownedParameter xmi:id="_fYDJoPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
@@ -624,7 +624,7 @@
       <ownedAttribute xmi:id="_FbwwYPQ7EeSIFroSQ3PJhQ" name="size" visibility="public" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ" isReadOnly="true">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FbwwYfQ7EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbxXcPQ7EeSIFroSQ3PJhQ" value="1"/>
-        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="0"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_BjeQ8PTPEeSIFroSQ3PJhQ" name="chunkIndice" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bje4APTPEeSIFroSQ3PJhQ"/>
@@ -648,16 +648,13 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HGtBM_WZEeSjV6l1_rfr4w" value="1"/>
         </ownedParameter>
         <ownedParameter xmi:id="_P3SGAPWZEeSjV6l1_rfr4w" name="* vertexBuffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_T-dWwPWZEeSjV6l1_rfr4w" name="type" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
+        <ownedParameter xmi:id="_T-dWwPWZEeSjV6l1_rfr4w" name="null" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
         <ownedParameter xmi:id="_HGtBNPWZEeSjV6l1_rfr4w" name="p" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_HGtBNfWZEeSjV6l1_rfr4w" name="q" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_HGtBNvWZEeSjV6l1_rfr4w" name="r" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_HGtBN_WZEeSjV6l1_rfr4w" name="width" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
       <ownedOperation xmi:id="_NyOokPWaEeSjV6l1_rfr4w" name="getCube">
-        <ownedParameter xmi:id="_xTceUPWaEeSjV6l1_rfr4w" type="_D_DjwPTpEeSsEf-9y1lS0g" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
         <ownedParameter xmi:id="_NyOolPWaEeSjV6l1_rfr4w" name="x" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_NyOolfWaEeSjV6l1_rfr4w" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_NyOolvWaEeSjV6l1_rfr4w" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>

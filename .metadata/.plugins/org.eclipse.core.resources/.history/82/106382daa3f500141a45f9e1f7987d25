@@ -6,7 +6,7 @@
 [/template]
 
 [template public generateCopyCtorParameters(aClass : Class)]
-[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] _[aProperty.name/][/for]
+[for (aProperty : Property | aClass.attribute) separator(', ')][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] _[aProperty.name/][/for]
 [/template]
 
 [template public generateElement(aPackage : Package)]

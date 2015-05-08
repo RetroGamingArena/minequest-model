@@ -198,19 +198,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4WK1IfQkEeSIFroSQ3PJhQ" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_MsaBQPC-EeSU2M_KtQEOUA" name="Scene" isAbstract="true">
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZzC8EPKaEeSU2M_KtQEOUA" name="Scene activity"/>
-      <ownedOperation xmi:id="_7ecqEPJ2EeSU2M_KtQEOUA" name="init" isAbstract="true">
-        <ownedParameter xmi:id="_8kTCYPJ3EeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Ylge0PKCEeSU2M_KtQEOUA" name="render" isAbstract="true">
-        <ownedParameter xmi:id="_fYDJoPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
     <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera">
@@ -1028,4 +1015,17 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_D_DjwPTpEeSsEf-9y1lS0g" name="unsigned char"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3uO14PTpEeSsEf-9y1lS0g" name="utils::NoiseMap"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_7qIHoPWBEeSjV6l1_rfr4w" name="float*"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_MsaBQPC-EeSU2M_KtQEOUA" name="Scene" isAbstract="true">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_ZzC8EPKaEeSU2M_KtQEOUA" name="Scene activity"/>
+    <ownedOperation xmi:id="_7ecqEPJ2EeSU2M_KtQEOUA" name="init" isAbstract="true">
+      <ownedParameter xmi:id="_8kTCYPJ3EeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+        <name xsi:nil="true"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Ylge0PKCEeSU2M_KtQEOUA" name="render" isAbstract="true">
+      <ownedParameter xmi:id="_fYDJoPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+        <name xsi:nil="true"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
 </uml:Model>
