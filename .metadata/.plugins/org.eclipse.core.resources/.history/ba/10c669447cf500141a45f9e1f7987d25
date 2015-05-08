@@ -787,15 +787,6 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_VYuw4PTfEeSsEf-9y1lS0g" name="octree">
     <packagedElement xmi:type="uml:Class" xmi:id="_YITVgPTfEeSsEf-9y1lS0g" name="Octree">
       <generalization xmi:id="_NCzyUPTgEeSsEf-9y1lS0g" general="_GiqfEPTgEeSsEf-9y1lS0g"/>
-      <ownedOperation xmi:id="_oJH04PV7EeSjV6l1_rfr4w" name="bufferize">
-        <ownedParameter xmi:id="_pps20PV7EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_sXLwwPV7EeSjV6l1_rfr4w" name="vertexBuffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="__unfgPV7EeSjV6l1_rfr4w" name="p" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_Bj_FsPV8EeSjV6l1_rfr4w" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_DPiokPV8EeSjV6l1_rfr4w" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_CeKH0PTgEeSsEf-9y1lS0g" name="OctreeEntry" isAbstract="true">
       <ownedAttribute xmi:id="_VOS9UPTxEeSsEf-9y1lS0g" name="NODE" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ">
@@ -833,16 +824,6 @@
         <ownedParameter xmi:id="_lSDp8PTzEeSsEf-9y1lS0g" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_m9aYgPTzEeSsEf-9y1lS0g" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_ooqZYPTzEeSsEf-9y1lS0g" name="size" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_M8gdIPV8EeSjV6l1_rfr4w" name="bufferize">
-        <ownedParameter xmi:id="_M8gdIfV8EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_M8gdIvV8EeSjV6l1_rfr4w" name="vertexBuffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_M8gdI_V8EeSjV6l1_rfr4w" name="p" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_M8gdJPV8EeSjV6l1_rfr4w" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_M8gdJfV8EeSjV6l1_rfr4w" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_OCoXsPV8EeSjV6l1_rfr4w" name="size" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_GiqfEPTgEeSsEf-9y1lS0g" name="Node">
