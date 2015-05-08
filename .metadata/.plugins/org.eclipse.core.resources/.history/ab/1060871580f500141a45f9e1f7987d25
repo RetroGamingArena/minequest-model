@@ -365,12 +365,6 @@
         </ownedParameter>
         <ownedParameter xmi:id="_oAybcPV_EeSjV6l1_rfr4w" name="indice" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_6Tv1cPV_EeSjV6l1_rfr4w" name="bufferizeSquare">
-        <ownedParameter xmi:id="_6Tv1cfV_EeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_6Tv1cvV_EeSjV6l1_rfr4w" name="x1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">
       <ownedEnd xmi:id="_0uLzMPKiEeSU2M_KtQEOUA" name="doubleBuffers" visibility="private" type="_W3rdgPKiEeSU2M_KtQEOUA" aggregation="composite" association="_0uLMIPKiEeSU2M_KtQEOUA">

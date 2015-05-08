@@ -370,6 +370,12 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_6Tv1cvV_EeSjV6l1_rfr4w" name="x1" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_CjQNgPWAEeSjV6l1_rfr4w">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_DYSYEPWAEeSjV6l1_rfr4w">
+          <name xsi:nil="true"/>
+        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">
