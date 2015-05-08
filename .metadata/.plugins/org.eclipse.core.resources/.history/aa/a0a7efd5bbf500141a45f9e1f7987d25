@@ -254,7 +254,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oxwuIPW7EeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oxx8QPW7EeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_yOYZkPW7EeSjV6l1_rfr4w" name="distance" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+      <ownedAttribute xmi:id="_yOYZkPW7EeSjV6l1_rfr4w" name="distance" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yOZAoPW7EeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yOZnsPW7EeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>

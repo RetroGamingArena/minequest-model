@@ -255,8 +255,6 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 	[if (aProperty.visibility.toString().equalsIgnoreCase('public')._not())]
 [if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>*[/if] [aClass.name/]::get[aProperty.name.toUpperFirst()/]()
 {
-	// [protected ('get'.concat(aProperty.name.toUpperFirst()))]
-	// [/protected]
 	return [aProperty.name/];
 }
 

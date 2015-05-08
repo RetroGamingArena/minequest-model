@@ -246,18 +246,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_a1d-IfNlEeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_a1elMPNlEeSIFroSQ3PJhQ" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_l5JiQPW7EeSjV6l1_rfr4w" name="angleY" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_l5NMoPW7EeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_l5NzsPW7EeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_oxvgAPW7EeSjV6l1_rfr4w" name="angleZ" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oxwuIPW7EeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oxx8QPW7EeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_yOYZkPW7EeSjV6l1_rfr4w" name="distance" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yOZAoPW7EeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yOZnsPW7EeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7YATYPJAEeSU2M_KtQEOUA" name="shader">
@@ -350,18 +338,13 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_bmoEcPKYEeSU2M_KtQEOUA" name="buffer">
-    <packagedElement xmi:type="uml:Class" xmi:id="_jJMeAPKYEeSU2M_KtQEOUA" name="Buffer" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_jJMeAPKYEeSU2M_KtQEOUA" name="Buffer">
       <ownedAttribute xmi:id="_idUSoPKcEeSU2M_KtQEOUA" name="id" visibility="protected" type="_V8EKoPJyEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_idVgwPKcEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_idWH0PKcEeSU2M_KtQEOUA" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_aTeZEPWOEeSjV6l1_rfr4w" name="init">
         <ownedParameter xmi:id="_fMBcYPWOEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_wRVNIPWyEeSjV6l1_rfr4w" name="bind" isAbstract="true">
-        <ownedParameter xmi:id="_5g9lcPWyEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
