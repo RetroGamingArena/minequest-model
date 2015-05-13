@@ -5077,7 +5077,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_HIIkkPWZEeSjV6l1_rfr4w" name="bufferizeEntry(* vertexBuffer : VertexBuffer, type : unsigned char, p : float, q : float, r : float, width : int) : void[1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_HIIkkPWZEeSjV6l1_rfr4w" name="bufferizeEntry(* vertexBuffer : VertexBuffer, type : unsigned char, p : int, q : int, r : int, width : int) : void[1]">
             <target xmi:type="uml:Operation" href="main.uml#_HGtBMPWZEeSjV6l1_rfr4w"/>
             <semanticElements xmi:type="uml:Operation" href="main.uml#_HGtBMPWZEeSjV6l1_rfr4w"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_HGtBN_WZEeSjV6l1_rfr4w"/>

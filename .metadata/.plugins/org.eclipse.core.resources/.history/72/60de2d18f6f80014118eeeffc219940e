@@ -152,7 +152,7 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_CrwjYPHJEeSU2M_KtQEOUA" name="LoadingScene">
-      <generalization xmi:id="_FeJAsPj2EeS507DLLmx_SA" general="_Ar2y8PDeEeSU2M_KtQEOUA"/>
+      <generalization xmi:id="_IKMiAPHJEeSU2M_KtQEOUA" general="_Ar2y8PDeEeSU2M_KtQEOUA"/>
       <ownedAttribute xmi:id="_PbjvQPQYEeSIFroSQ3PJhQ" name="thread" visibility="private" type="_CuZgIPQYEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PbkWUPQYEeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PbkWUfQYEeSIFroSQ3PJhQ" value="1"/>
@@ -764,9 +764,9 @@
         </ownedParameter>
         <ownedParameter xmi:id="_P3SGAPWZEeSjV6l1_rfr4w" name="* vertexBuffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_T-dWwPWZEeSjV6l1_rfr4w" name="type" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
-        <ownedParameter xmi:id="_HGtBNPWZEeSjV6l1_rfr4w" name="p" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_HGtBNfWZEeSjV6l1_rfr4w" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_HGtBNvWZEeSjV6l1_rfr4w" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_HGtBNPWZEeSjV6l1_rfr4w" name="p" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_HGtBNfWZEeSjV6l1_rfr4w" name="q" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_HGtBNvWZEeSjV6l1_rfr4w" name="r" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_HGtBN_WZEeSjV6l1_rfr4w" name="width" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
       <ownedOperation xmi:id="_NyOokPWaEeSjV6l1_rfr4w" name="getCube">
