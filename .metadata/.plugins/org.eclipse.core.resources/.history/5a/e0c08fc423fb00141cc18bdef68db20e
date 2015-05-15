@@ -901,14 +901,6 @@
         <ownedParameter xmi:id="_IrXXUPToEeSsEf-9y1lS0g" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_LXrzoPToEeSsEf-9y1lS0g" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_oAADIPsjEeSBTpiS073EeQ" name="getCubeType" isAbstract="true">
-        <ownedParameter xmi:id="_oAADIfsjEeSBTpiS073EeQ" type="_D_DjwPTpEeSsEf-9y1lS0g" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_oAADIvsjEeSBTpiS073EeQ" name="x" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_o3o1wPsjEeSBTpiS073EeQ" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_oAADI_sjEeSBTpiS073EeQ" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_F2BK0PQ4EeSIFroSQ3PJhQ" name="PerlinGenerator">
       <generalization xmi:id="_vDMd0PQ4EeSIFroSQ3PJhQ" general="_7jB4EPQ3EeSIFroSQ3PJhQ"/>
