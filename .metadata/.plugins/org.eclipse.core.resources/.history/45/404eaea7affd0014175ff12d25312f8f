@@ -743,7 +743,7 @@
       <ownedAttribute xmi:id="_FbwwYPQ7EeSIFroSQ3PJhQ" name="size" visibility="public" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ" isReadOnly="true">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FbwwYfQ7EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbxXcPQ7EeSIFroSQ3PJhQ" value="1"/>
-        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="2"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_BjeQ8PTPEeSIFroSQ3PJhQ" name="chunkIndice" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bje4APTPEeSIFroSQ3PJhQ"/>
