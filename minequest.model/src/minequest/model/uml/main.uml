@@ -140,6 +140,11 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RLhAQPHDEeSU2M_KtQEOUA" name="GameScene">
       <generalization xmi:id="_XLnhgPHDEeSU2M_KtQEOUA" general="_Ar1hwPHDEeSU2M_KtQEOUA"/>
+      <ownedOperation xmi:id="_buLLYP8kEeSKSsyltveFdA" name="reset">
+        <ownedParameter xmi:id="_otDAIP8lEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_i41rsPHFEeSU2M_KtQEOUA" name="scenesToCameras" memberEnd="_i41rsfHFEeSU2M_KtQEOUA _i43g4PHFEeSU2M_KtQEOUA" navigableOwnedEnd="_i43g4PHFEeSU2M_KtQEOUA">
       <ownedEnd xmi:id="_i41rsfHFEeSU2M_KtQEOUA" name="scenes" visibility="protected" type="_MsaBQPC-EeSU2M_KtQEOUA" aggregation="composite" association="_i41rsPHFEeSU2M_KtQEOUA">
@@ -168,14 +173,14 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_19I5oPKiEeSU2M_KtQEOUA" name="vBOScenesToDoubleBuffers" visibility="private" memberEnd="_19JgsPKiEeSU2M_KtQEOUA _19Ku0fKiEeSU2M_KtQEOUA" navigableOwnedEnd="_19Ku0fKiEeSU2M_KtQEOUA">
-      <ownedEnd xmi:id="_19JgsPKiEeSU2M_KtQEOUA" name="vBOScenes" visibility="private" type="_Ar2y8PDeEeSU2M_KtQEOUA" aggregation="composite" association="_19I5oPKiEeSU2M_KtQEOUA">
+    <packagedElement xmi:type="uml:Association" xmi:id="_19I5oPKiEeSU2M_KtQEOUA" name="vBOScenesToDoubleBuffers" visibility="protected" memberEnd="_19JgsPKiEeSU2M_KtQEOUA _19Ku0fKiEeSU2M_KtQEOUA" navigableOwnedEnd="_19Ku0fKiEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_19JgsPKiEeSU2M_KtQEOUA" name="vBOScenes" visibility="protected" type="_Ar2y8PDeEeSU2M_KtQEOUA" aggregation="composite" association="_19I5oPKiEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19KHwPKiEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19Ku0PKiEeSU2M_KtQEOUA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_19Ku0fKiEeSU2M_KtQEOUA" name="doubleBuffer" visibility="private" type="_W3rdgPKiEeSU2M_KtQEOUA" association="_19I5oPKiEeSU2M_KtQEOUA">
+      <ownedEnd xmi:id="_19Ku0fKiEeSU2M_KtQEOUA" name="doubleBuffer" visibility="protected" type="_W3rdgPKiEeSU2M_KtQEOUA" association="_19I5oPKiEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_19LV4PKiEeSU2M_KtQEOUA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19L88PKiEeSU2M_KtQEOUA" value="*"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_19L88PKiEeSU2M_KtQEOUA" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_ajDnAPM6EeSIFroSQ3PJhQ" name="scenesToUIs" visibility="protected" memberEnd="_ajDnAfM6EeSIFroSQ3PJhQ _ajEOEvM6EeSIFroSQ3PJhQ" navigableOwnedEnd="_ajEOEvM6EeSIFroSQ3PJhQ">
@@ -445,6 +450,12 @@
         </ownedParameter>
         <ownedParameter xmi:id="_T6EPAPQlEeSIFroSQ3PJhQ" name="dt" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
+      <ownedOperation xmi:id="_EhqCcP8ZEeSKSsyltveFdA" name="draw" isAbstract="true">
+        <ownedParameter xmi:id="_axKxkP8ZEeSKSsyltveFdA" name="* buffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_mWsqQP8ZEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_bmoEcPKYEeSU2M_KtQEOUA" name="buffer">
@@ -705,17 +716,16 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CuZgIPQYEeSIFroSQ3PJhQ" name="std::thread*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_FOHq4PQYEeSIFroSQ3PJhQ" name="std::mutex*"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_bQzhIPQnEeSIFroSQ3PJhQ" name="processor">
-    <packagedElement xmi:type="uml:Class" xmi:id="_y3hTwPQnEeSIFroSQ3PJhQ" name="WorldProcessor" isAbstract="true">
-      <ownedOperation xmi:id="_kl7LgPQpEeSIFroSQ3PJhQ" name="bufferize" isAbstract="true">
-        <ownedParameter xmi:id="_vA7KwPQpEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+    <packagedElement xmi:type="uml:Class" xmi:id="_y3hTwPQnEeSIFroSQ3PJhQ" name="WorldProcessor">
+      <generalization xmi:id="_gustsP8eEeSKSsyltveFdA" general="_7JlQkPQnEeSIFroSQ3PJhQ"/>
+      <ownedOperation xmi:id="_GgN4gP8nEeSKSsyltveFdA" name="process">
+        <ownedParameter xmi:id="_hbLDEP8nEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_oW5iwPQpEeSIFroSQ3PJhQ" name="* gameScene" type="_RLhAQPHDEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_6BUWEPQpEeSIFroSQ3PJhQ" name="* world" type="_BDsMoPQqEeSIFroSQ3PJhQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7JlQkPQnEeSIFroSQ3PJhQ" name="IterativeProcessor">
-      <generalization xmi:id="_Xtti8PQpEeSIFroSQ3PJhQ" general="_y3hTwPQnEeSIFroSQ3PJhQ"/>
+      <generalization xmi:id="_Xtti8PQpEeSIFroSQ3PJhQ" general="_7yaIcP8aEeSKSsyltveFdA"/>
       <generalization xmi:id="_ztjLQPWEEeSjV6l1_rfr4w" general="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
       <ownedAttribute xmi:id="_cE27UPWHEeSjV6l1_rfr4w" name="chunkIndice" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cE3iYPWHEeSjV6l1_rfr4w"/>
@@ -735,6 +745,34 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MOitcvWIEeSjV6l1_rfr4w" value="1"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7yaIcP8aEeSKSsyltveFdA" name="Processor" isAbstract="true">
+      <ownedOperation xmi:id="_tMEUsP8bEeSKSsyltveFdA" name="bufferize" isAbstract="true">
+        <ownedParameter xmi:id="_tMEUsf8bEeSKSsyltveFdA" type="_40M1cP8bEeSKSsyltveFdA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_tMEUsv8bEeSKSsyltveFdA" name="* octree" type="_YITVgPTfEeSsEf-9y1lS0g"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Lj7cQP8iEeSKSsyltveFdA" name="worldProcessorsToWorlds" visibility="private" memberEnd="_Lj7cQf8iEeSKSsyltveFdA _Lj8DUv8iEeSKSsyltveFdA" navigableOwnedEnd="_Lj8DUv8iEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Lj7cQf8iEeSKSsyltveFdA" name="worldProcessors" visibility="private" type="_y3hTwPQnEeSIFroSQ3PJhQ" aggregation="composite" association="_Lj7cQP8iEeSKSsyltveFdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lj8DUP8iEeSKSsyltveFdA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lj8DUf8iEeSKSsyltveFdA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_Lj8DUv8iEeSKSsyltveFdA" name="world" visibility="private" type="_BDsMoPQqEeSIFroSQ3PJhQ" association="_Lj7cQP8iEeSKSsyltveFdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Lj8qYP8iEeSKSsyltveFdA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Lj8qYf8iEeSKSsyltveFdA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Tgh-EP8wEeSKSsyltveFdA" name="processor[0..1]" visibility="private" memberEnd="_Tgh-Ef8wEeSKSsyltveFdA _TgilIv8wEeSKSsyltveFdA" navigableOwnedEnd="_TgilIv8wEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Tgh-Ef8wEeSKSsyltveFdA" name="chunkProcessorTasks" visibility="private" type="_DD0DQPWIEeSjV6l1_rfr4w" aggregation="composite" association="_Tgh-EP8wEeSKSsyltveFdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgilIP8wEeSKSsyltveFdA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgilIf8wEeSKSsyltveFdA" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_TgilIv8wEeSKSsyltveFdA" name="processor" visibility="private" type="_7yaIcP8aEeSKSsyltveFdA" association="_Tgh-EP8wEeSKSsyltveFdA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TgjMMP8wEeSKSsyltveFdA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TgjMMf8wEeSKSsyltveFdA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ddK1kPQoEeSIFroSQ3PJhQ" name="bool"/>
   <packagedElement xmi:type="uml:Package" xmi:id="__bnbkPQpEeSIFroSQ3PJhQ" name="world">
@@ -743,7 +781,7 @@
       <ownedAttribute xmi:id="_FbwwYPQ7EeSIFroSQ3PJhQ" name="size" visibility="public" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ" isReadOnly="true">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FbwwYfQ7EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FbxXcPQ7EeSIFroSQ3PJhQ" value="1"/>
-        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="2"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_qRUCMPRDEeSIFroSQ3PJhQ" name="3"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_BjeQ8PTPEeSIFroSQ3PJhQ" name="chunkIndice" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Bje4APTPEeSIFroSQ3PJhQ"/>
@@ -953,6 +991,11 @@
       <ownedAttribute xmi:id="_2WeYwPTpEeSsEf-9y1lS0g" name="heightMap" visibility="private" type="_3uO14PTpEeSsEf-9y1lS0g">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2We_0PTpEeSsEf-9y1lS0g"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2We_0fTpEeSsEf-9y1lS0g" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_tCmXQP55EeSKSsyltveFdA" name="waterHeight" visibility="private" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ" isReadOnly="true">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tCmXQf55EeSKSsyltveFdA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tCmXQv55EeSKSsyltveFdA" value="1"/>
+        <defaultValue xmi:type="uml:StringExpression" xmi:id="_wJJRcf55EeSKSsyltveFdA" name="10"/>
       </ownedAttribute>
     </packagedElement>
   </packagedElement>
@@ -1179,4 +1222,5 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_7qIHoPWBEeSjV6l1_rfr4w" name="float*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_2CURwPysEeSB7M3NWfQuxg" name="Octree*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NoLEkPy0EeSB7M3NWfQuxg" name="OctreeEntry*"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_40M1cP8bEeSKSsyltveFdA" name="vector&lt;GLfloat>*"/>
 </uml:Model>
