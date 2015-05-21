@@ -235,13 +235,11 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_4tefUAAAEeWKSsyltveFdA" name="onKey" isAbstract="true">
-        <ownedParameter xmi:id="_9aLfAAAAEeWKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+        <ownedParameter xmi:id="_9aLfAAAAEeWKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ">
           <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rLVTgAABEeWKSsyltveFdA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rLV6kAABEeWKSsyltveFdA" value="1"/>
         </ownedParameter>
         <ownedParameter xmi:id="_EXTCIAABEeWKSsyltveFdA" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Hdf-EAABEeWKSsyltveFdA" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Hdf-EAABEeWKSsyltveFdA" name="scancoe" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_KOXjMAABEeWKSsyltveFdA" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_Lut7oAABEeWKSsyltveFdA" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
@@ -291,6 +289,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPiPXPEeSjV6l1_rfr4w" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPifXPEeSjV6l1_rfr4w" value="1"/>
         </ownedParameter>
+        <ownedParameter xmi:id="_TapPivXPEeSjV6l1_rfr4w" name="window" type="_gFwi8PC7EeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_Tap2kPXPEeSjV6l1_rfr4w" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_Tap2kfXPEeSjV6l1_rfr4w" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_Tap2kvXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
