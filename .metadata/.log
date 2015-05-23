@@ -10940,3 +10940,435 @@ Created Time: 2015-05-21 20:48:28.176
 
 !ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-21 23:58:34.249
 !MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.263
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.264
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:06.265
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.837
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.838
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.839
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.839
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.840
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.840
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.840
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:32.840
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.016
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.016
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.018
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.018
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.018
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.018
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.019
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.019
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.182
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.182
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.182
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.183
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.183
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.183
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.183
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:46:33.183
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.615
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.615
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.616
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.617
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.617
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.617
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.617
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.617
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.944
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.944
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.946
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.946
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.946
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.947
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.947
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:48:23.947
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.829
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.830
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.830
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.830
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.830
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.831
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.831
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 18:58:15.831
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.744
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.744
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.745
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.745
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.746
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.746
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.746
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:03:25.746
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.394
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.395
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.396
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.396
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.396
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.396
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.396
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:05:22.397
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.859
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.860
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.860
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.860
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.860
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.860
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.861
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:16:53.861
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.062
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.065
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.065
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.065
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.066
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.066
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.066
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.066
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.246
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.246
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.248
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.248
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.249
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.249
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.249
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.249
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.735
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.735
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.737
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.737
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.737
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.738
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.738
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.738
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.915
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.916
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:57.918
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.096
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.096
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.098
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.098
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.098
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.099
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.099
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.099
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.285
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.285
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.287
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.287
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.287
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.287
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.287
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.288
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.463
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.464
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.465
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.466
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.655
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.655
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode
+
+!ENTRY org.eclipse.gmf.runtime.draw2d.ui 2 2 2015-05-22 19:21:58.657
+!MESSAGE MapModeUtil#getMapMode(IFigure fig) fig parameter must be attached to a parent - using default MapMode

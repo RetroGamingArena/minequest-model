@@ -111,7 +111,7 @@
                   <styles xmi:type="notation:FilteringStyle" xmi:id="_AtJzcvDeEeSU2M_KtQEOUA"/>
                 </children>
                 <styles xmi:type="notation:ShapeStyle" xmi:id="_AtH-QfDeEeSU2M_KtQEOUA" fontName=".Helvetica Neue DeskInterface" bold="true"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AtH-QvDeEeSU2M_KtQEOUA" x="23" y="210" width="120" height="91"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AtH-QvDeEeSU2M_KtQEOUA" x="23" y="190" width="120" height="91"/>
               </children>
               <children xmi:type="notation:Node" xmi:id="_As21cPHDEeSU2M_KtQEOUA" type="3009" element="_Ar2v4PHDEeSU2M_KtQEOUA">
                 <children xmi:type="notation:Node" xmi:id="_As4qoPHDEeSU2M_KtQEOUA" type="5004"/>
@@ -7262,7 +7262,7 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Association']"/>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Djx2EACnEeWKSsyltveFdA" sourceNode="_286jkACjEeWKSsyltveFdA" targetNode="_vSoYMPKcEeSU2M_KtQEOUA" beginLabel="backgrounds[0..1]" endLabel="vertexBuffer[0..1]">
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_Djx2EACnEeWKSsyltveFdA" sourceNode="_286jkACjEeWKSsyltveFdA" targetNode="_vSoYMPKcEeSU2M_KtQEOUA" beginLabel="backgrounds[0..1]" endLabel="vertexBuffers[*]">
         <target xmi:type="uml:Association" href="main.uml#_DjBoIACnEeWKSsyltveFdA"/>
         <semanticElements xmi:type="uml:Association" href="main.uml#_DjBoIACnEeWKSsyltveFdA"/>
         <semanticElements xmi:type="uml:Property" href="main.uml#_DjDdUACnEeWKSsyltveFdA"/>

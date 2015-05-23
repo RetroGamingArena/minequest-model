@@ -1327,11 +1327,11 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_DjBoIACnEeWKSsyltveFdA" name="vertexBuffer[0..1]" visibility="private" memberEnd="_DjCPMACnEeWKSsyltveFdA _DjDdUACnEeWKSsyltveFdA" navigableOwnedEnd="_DjDdUACnEeWKSsyltveFdA">
-      <ownedEnd xmi:id="_DjCPMACnEeWKSsyltveFdA" name="backgrounds" visibility="private" type="_2858gACjEeWKSsyltveFdA" isReadOnly="true" aggregation="composite" association="_DjBoIACnEeWKSsyltveFdA">
+      <ownedEnd xmi:id="_DjCPMACnEeWKSsyltveFdA" name="backgrounds" visibility="private" type="_2858gACjEeWKSsyltveFdA" aggregation="composite" association="_DjBoIACnEeWKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DjC2QACnEeWKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DjC2QQCnEeWKSsyltveFdA" value="1"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_DjDdUACnEeWKSsyltveFdA" name="vertexBuffer" visibility="private" type="_vSnKEPKcEeSU2M_KtQEOUA" isReadOnly="true" association="_DjBoIACnEeWKSsyltveFdA">
+      <ownedEnd xmi:id="_DjDdUACnEeWKSsyltveFdA" name="vertexBuffer" visibility="private" type="_vSnKEPKcEeSU2M_KtQEOUA" association="_DjBoIACnEeWKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DjEEYACnEeWKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DjEEYQCnEeWKSsyltveFdA" value="1"/>
       </ownedEnd>

@@ -256,16 +256,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_dZORcACkEeWKSsyltveFdA" name="background[0..1]" visibility="protected" memberEnd="_dZORcQCkEeWKSsyltveFdA _dZPfkACkEeWKSsyltveFdA" navigableOwnedEnd="_dZPfkACkEeWKSsyltveFdA">
-      <ownedEnd xmi:id="_dZORcQCkEeWKSsyltveFdA" name="scenes" visibility="protected" type="_MsaBQPC-EeSU2M_KtQEOUA" isReadOnly="true" aggregation="composite" association="_dZORcACkEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZO4gACkEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZO4gQCkEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_dZPfkACkEeWKSsyltveFdA" name="background" visibility="protected" type="_2858gACjEeWKSsyltveFdA" isReadOnly="true" association="_dZORcACkEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dZPfkQCkEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dZQGoACkEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_ukN4IPDdEeSU2M_KtQEOUA" name="camera">
     <packagedElement xmi:type="uml:Class" xmi:id="_FaiIkPDeEeSU2M_KtQEOUA" name="Camera" isAbstract="true">
@@ -1308,33 +1298,4 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_NoLEkPy0EeSB7M3NWfQuxg" name="OctreeEntry*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_40M1cP8bEeSKSsyltveFdA" name="vector&lt;GLfloat>*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ilz0sP_sEeSKSsyltveFdA" name="Camera*"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_xIr7IACjEeWKSsyltveFdA" name="background">
-    <packagedElement xmi:type="uml:Class" xmi:id="_2858gACjEeWKSsyltveFdA" name="Background">
-      <ownedOperation xmi:id="_WTmAoACmEeWKSsyltveFdA" name="render">
-        <ownedParameter xmi:id="_WTmAoQCmEeWKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_eFoEcACkEeWKSsyltveFdA" name="backgroundShader[0..1]" visibility="private" memberEnd="_eFoEcQCkEeWKSsyltveFdA _eFpSkACkEeWKSsyltveFdA" navigableOwnedEnd="_eFpSkACkEeWKSsyltveFdA">
-      <ownedEnd xmi:id="_eFoEcQCkEeWKSsyltveFdA" name="backgrounds" visibility="private" type="_2858gACjEeWKSsyltveFdA" aggregation="composite" association="_eFoEcACkEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eForgACkEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eForgQCkEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_eFpSkACkEeWKSsyltveFdA" name="backgroundShader" visibility="private" type="_Gnf4AACiEeWKSsyltveFdA" association="_eFoEcACkEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eFpSkQCkEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eFpSkgCkEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_DjBoIACnEeWKSsyltveFdA" name="vertexBuffer[0..1]" visibility="private" memberEnd="_DjCPMACnEeWKSsyltveFdA _DjDdUACnEeWKSsyltveFdA" navigableOwnedEnd="_DjDdUACnEeWKSsyltveFdA">
-      <ownedEnd xmi:id="_DjCPMACnEeWKSsyltveFdA" name="backgrounds" visibility="private" type="_2858gACjEeWKSsyltveFdA" isReadOnly="true" aggregation="composite" association="_DjBoIACnEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DjC2QACnEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DjC2QQCnEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_DjDdUACnEeWKSsyltveFdA" name="vertexBuffer" visibility="private" type="_vSnKEPKcEeSU2M_KtQEOUA" isReadOnly="true" association="_DjBoIACnEeWKSsyltveFdA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DjEEYACnEeWKSsyltveFdA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DjEEYQCnEeWKSsyltveFdA" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-  </packagedElement>
 </uml:Model>
