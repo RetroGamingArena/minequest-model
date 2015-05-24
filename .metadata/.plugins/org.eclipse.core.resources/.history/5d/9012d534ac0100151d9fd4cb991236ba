@@ -894,7 +894,6 @@
         <ownedParameter xmi:id="_HGtBNfWZEeSjV6l1_rfr4w" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_HGtBNvWZEeSjV6l1_rfr4w" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_HGtBN_WZEeSjV6l1_rfr4w" name="width" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_H_R84AGrEeWbjNAbhTeNBg" name="occlusion" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
       </ownedOperation>
       <ownedOperation xmi:id="_NyOokPWaEeSjV6l1_rfr4w" name="getCube">
         <ownedParameter xmi:id="_xTceUPWaEeSjV6l1_rfr4w" type="_D_DjwPTpEeSsEf-9y1lS0g" direction="return">
