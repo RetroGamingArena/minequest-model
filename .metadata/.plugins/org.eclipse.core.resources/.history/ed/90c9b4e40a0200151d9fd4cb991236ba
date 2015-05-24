@@ -160,10 +160,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RLhAQPHDEeSU2M_KtQEOUA" name="GameScene">
       <generalization xmi:id="_XLnhgPHDEeSU2M_KtQEOUA" general="_Ar1hwPHDEeSU2M_KtQEOUA"/>
-      <ownedAttribute xmi:id="__BCM4AIVEeWbjNAbhTeNBg" name="chunksOffset" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__BCz8AIVEeWbjNAbhTeNBg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__BCz8QIVEeWbjNAbhTeNBg" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_buLLYP8kEeSKSsyltveFdA" name="reset">
         <ownedParameter xmi:id="_otDAIP8lEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -171,11 +167,6 @@
       </ownedOperation>
       <ownedOperation xmi:id="_mydVkAIAEeWbjNAbhTeNBg" name="render">
         <ownedParameter xmi:id="_mydVkQIAEeWbjNAbhTeNBg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_onQfwAIbEeWbjNAbhTeNBg" name="refreshItemsBuffer">
-        <ownedParameter xmi:id="_zxT9YAIbEeWbjNAbhTeNBg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
@@ -569,10 +560,10 @@
       <ownedAttribute xmi:id="_jPeA4AIJEeWbjNAbhTeNBg" name="g" isStatic="true" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jPeA4QIJEeWbjNAbhTeNBg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jPen8AIJEeWbjNAbhTeNBg" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_8ajwUQIJEeWbjNAbhTeNBg" name="9.80665"/>
+        <defaultValue xmi:type="uml:StringExpression" xmi:id="_8ajwUQIJEeWbjNAbhTeNBg"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_GdswgPQlEeSIFroSQ3PJhQ" name="live" isAbstract="true">
-        <ownedParameter xmi:id="_Hn_ZYPQlEeSIFroSQ3PJhQ" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
+        <ownedParameter xmi:id="_Hn_ZYPQlEeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_T6EPAPQlEeSIFroSQ3PJhQ" name="dt" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
@@ -596,7 +587,7 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_TFHuoAIIEeWbjNAbhTeNBg" name="tryMove">
-        <ownedParameter xmi:id="_eanAMAIIEeWbjNAbhTeNBg" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
+        <ownedParameter xmi:id="_eanAMAIIEeWbjNAbhTeNBg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
@@ -1411,8 +1402,5 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DjEEYQCnEeWKSsyltveFdA" value="1"/>
       </ownedEnd>
     </packagedElement>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Package" xmi:id="_ixIMIAIWEeWbjNAbhTeNBg" name="event">
-    <packagedElement xmi:type="uml:Class" xmi:id="_uiF4wAIWEeWbjNAbhTeNBg" name="Listener"/>
   </packagedElement>
 </uml:Model>
