@@ -773,13 +773,6 @@
         <ownedParameter xmi:id="_7o4-oPNqEeSIFroSQ3PJhQ" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="__LwocPNqEeSIFroSQ3PJhQ" name="size" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_Ne470AP-EeWXzfeSmmg0Yw" name="refresh" isAbstract="true">
-        <ownedParameter xmi:id="_Ne470QP-EeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OofBIAP-EeWXzfeSmmg0Yw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OofoMAP-EeWXzfeSmmg0Yw" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_wMRAkPM5EeSIFroSQ3PJhQ" name="LoadingUI">
       <generalization xmi:id="_zy8zYPM5EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
@@ -796,13 +789,6 @@
       <ownedOperation xmi:id="_URDdcPM6EeSIFroSQ3PJhQ" name="render" isAbstract="true">
         <ownedParameter xmi:id="_VQ6X8PM6EeSIFroSQ3PJhQ" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_QLS3sAP-EeWXzfeSmmg0Yw" name="refresh" isAbstract="true">
-        <ownedParameter xmi:id="_QLS3sQP-EeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_QLS3sgP-EeWXzfeSmmg0Yw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QLS3swP-EeWXzfeSmmg0Yw" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -855,26 +841,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_IOrLoPQ1EeSIFroSQ3PJhQ" name="DebugUI">
       <generalization xmi:id="_c7CF8PQ1EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_1EDvMAP-EeWXzfeSmmg0Yw" name="fPSLabel[*]" visibility="private" memberEnd="_1EEWQAP-EeWXzfeSmmg0Yw _1EfNAQP-EeWXzfeSmmg0Yw" navigableOwnedEnd="_1EfNAQP-EeWXzfeSmmg0Yw">
-      <ownedEnd xmi:id="_1EEWQAP-EeWXzfeSmmg0Yw" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_1EDvMAP-EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1Eel8AP-EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1EfNAAP-EeWXzfeSmmg0Yw" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_1EfNAQP-EeWXzfeSmmg0Yw" name="fPSLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_1EDvMAP-EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1E3ngAP-EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1E3ngQP-EeWXzfeSmmg0Yw" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_EoXxoAP_EeWXzfeSmmg0Yw" name="cubesCountLabel[*]" visibility="private" memberEnd="_EoXxoQP_EeWXzfeSmmg0Yw _EoYYsgP_EeWXzfeSmmg0Yw" navigableOwnedEnd="_EoYYsgP_EeWXzfeSmmg0Yw">
-      <ownedEnd xmi:id="_EoXxoQP_EeWXzfeSmmg0Yw" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_EoXxoAP_EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EoYYsAP_EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EoYYsQP_EeWXzfeSmmg0Yw" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_EoYYsgP_EeWXzfeSmmg0Yw" name="cubesCountLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_EoXxoAP_EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_EoY_wAP_EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EoY_wQP_EeWXzfeSmmg0Yw" value="1"/>
-      </ownedEnd>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_MKTt4PM8EeSIFroSQ3PJhQ" name="char*"/>
