@@ -1487,31 +1487,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MuQVgwVxEeWXzfeSmmg0Yw" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_i0OC4AV4EeWXzfeSmmg0Yw" name="Event">
-      <ownedAttribute xmi:id="_4anjkAV4EeWXzfeSmmg0Yw" name="ID" visibility="private" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4anjkQV4EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4anjkgV4EeWXzfeSmmg0Yw" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_V0_W4AV5EeWXzfeSmmg0Yw" name="source" visibility="private" type="_KdWJMAV5EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V0_98AV5EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V0_98QV5EeWXzfeSmmg0Yw" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_fb1VUAV5EeWXzfeSmmg0Yw" name="ID_CHANGED" isStatic="true" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fb18YAV5EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fb18YQV5EeWXzfeSmmg0Yw" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_lYPCUAV5EeWXzfeSmmg0Yw"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_t4tEAAV4EeWXzfeSmmg0Yw" name="transmittersToEvents" visibility="protected" memberEnd="_t4trEAV4EeWXzfeSmmg0Yw _t4uSIQV4EeWXzfeSmmg0Yw" navigableOwnedEnd="_t4uSIQV4EeWXzfeSmmg0Yw">
-      <ownedEnd xmi:id="_t4trEAV4EeWXzfeSmmg0Yw" name="transmitters" visibility="protected" type="_LQc0YAVpEeWXzfeSmmg0Yw" isReadOnly="true" aggregation="shared" association="_t4tEAAV4EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t4trEQV4EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t4uSIAV4EeWXzfeSmmg0Yw" value="*"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_t4uSIQV4EeWXzfeSmmg0Yw" name="events" visibility="protected" type="_i0OC4AV4EeWXzfeSmmg0Yw" isReadOnly="true" association="_t4tEAAV4EeWXzfeSmmg0Yw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t4uSIgV4EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t4uSIwV4EeWXzfeSmmg0Yw" value="*"/>
-      </ownedEnd>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_i0OC4AV4EeWXzfeSmmg0Yw" name="Event"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KdWJMAV5EeWXzfeSmmg0Yw" name="void*"/>
 </uml:Model>

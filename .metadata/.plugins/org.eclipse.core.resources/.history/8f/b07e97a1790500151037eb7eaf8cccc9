@@ -1496,11 +1496,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V0_98AV5EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V0_98QV5EeWXzfeSmmg0Yw" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_fb1VUAV5EeWXzfeSmmg0Yw" name="ID_CHANGED" isStatic="true" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fb18YAV5EeWXzfeSmmg0Yw"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fb18YQV5EeWXzfeSmmg0Yw" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_lYPCUAV5EeWXzfeSmmg0Yw"/>
-      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_t4tEAAV4EeWXzfeSmmg0Yw" name="transmittersToEvents" visibility="protected" memberEnd="_t4trEAV4EeWXzfeSmmg0Yw _t4uSIQV4EeWXzfeSmmg0Yw" navigableOwnedEnd="_t4uSIQV4EeWXzfeSmmg0Yw">
       <ownedEnd xmi:id="_t4trEAV4EeWXzfeSmmg0Yw" name="transmitters" visibility="protected" type="_LQc0YAVpEeWXzfeSmmg0Yw" isReadOnly="true" aggregation="shared" association="_t4tEAAV4EeWXzfeSmmg0Yw">
