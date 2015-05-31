@@ -12,6 +12,17 @@
 [template public generateElement(aPackage : Package)]
 [comment @main/]
 
+[for (anEnum : Enumeration | aPackage.ownedElement)]
+	[file (aPackage.name.concat('/'+anEnum.name.concat('.h')), false, 'UTF-8')]
+enum [anEnum.name/]
+{
+	[for (aLiteral : EnumerationLiteral | anEnum.ownedLiteral)]
+	[aLiteral.name/],
+	[/for]
+};
+	[/file]
+[/for]
+
 [for (aClass : Class | aPackage.ownedElement)]
 	[if (aPackage.name.equalsIgnoreCase('Model'))]
 		[file (aClass.name.concat('.h'), false, 'UTF-8')]
