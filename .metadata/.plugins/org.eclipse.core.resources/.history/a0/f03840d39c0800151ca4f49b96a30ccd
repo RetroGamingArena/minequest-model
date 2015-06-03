@@ -161,11 +161,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ar1hwPHDEeSU2M_KtQEOUA" name="VoxelScene">
       <generalization xmi:id="_We3wQPHDEeSU2M_KtQEOUA" general="_Ar2y8PDeEeSU2M_KtQEOUA"/>
-      <ownedOperation xmi:id="_uWFBgAojEeW57rB61IrCrg" name="updateIndices">
-        <ownedParameter xmi:id="___YagAojEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RLhAQPHDEeSU2M_KtQEOUA" name="GameScene">
       <generalization xmi:id="_XLnhgPHDEeSU2M_KtQEOUA" general="_Ar1hwPHDEeSU2M_KtQEOUA"/>
@@ -415,13 +410,6 @@
           <name xsi:nil="true"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vNlmcvXZEeSjV6l1_rfr4w" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vNlmc_XZEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_S1foMAigEeW57rB61IrCrg" name="getMask">
-        <ownedParameter xmi:id="_VNqZcAigEeW57rB61IrCrg" type="_D_DjwPTpEeSsEf-9y1lS0g" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D4_24AikEeW57rB61IrCrg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D4_24QikEeW57rB61IrCrg" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -981,22 +969,22 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_xJzK4AWEEeWXzfeSmmg0Yw" name="CubeFace">
-      <ownedLiteral xmi:id="_3PWz4AWEEeWXzfeSmmg0Yw" name="BOTTOM=1">
+      <ownedLiteral xmi:id="_3PWz4AWEEeWXzfeSmmg0Yw" name="BOTTOM=1 : CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_3PXa8AWEEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
-      <ownedLiteral xmi:id="_BhPd8AWGEeWXzfeSmmg0Yw" name="LEFT=2">
+      <ownedLiteral xmi:id="_BhPd8AWGEeWXzfeSmmg0Yw" name="LEFT=2 : CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_BhPd8QWGEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
-      <ownedLiteral xmi:id="_CgpsgAWGEeWXzfeSmmg0Yw" name="FRONT=4">
+      <ownedLiteral xmi:id="_CgpsgAWGEeWXzfeSmmg0Yw" name="FRONT=4: CubeFace : CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_CgpsgQWGEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
-      <ownedLiteral xmi:id="_DNrxoAWGEeWXzfeSmmg0Yw" name="RIGHT=8">
+      <ownedLiteral xmi:id="_DNrxoAWGEeWXzfeSmmg0Yw" name="RIGHT=8 : CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_DNrxoQWGEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
-      <ownedLiteral xmi:id="_DNrxogWGEeWXzfeSmmg0Yw" name="BACK=16">
+      <ownedLiteral xmi:id="_DNrxogWGEeWXzfeSmmg0Yw" name="BACK=16 : CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_DNrxowWGEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
-      <ownedLiteral xmi:id="_DNrxpAWGEeWXzfeSmmg0Yw" name="TOP =32">
+      <ownedLiteral xmi:id="_DNrxpAWGEeWXzfeSmmg0Yw" name="TOP =32: CubeFace">
         <specification xmi:type="uml:LiteralInteger" xmi:id="_DNrxpQWGEeWXzfeSmmg0Yw"/>
       </ownedLiteral>
     </packagedElement>
@@ -1541,7 +1529,7 @@
         <ownedParameter xmi:id="_RIB7tAV9EeWXzfeSmmg0Yw" name="* event" type="_i0OC4AV4EeWXzfeSmmg0Yw"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter">
       <ownedOperation xmi:id="_HDslcAV8EeWXzfeSmmg0Yw" name="fireEvent">
         <ownedParameter xmi:id="_KkJ0cAV8EeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1555,11 +1543,6 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_ca0sUAWCEeWXzfeSmmg0Yw" name="* listener" type="_uiF4wAIWEeWbjNAbhTeNBg"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_bzmS4AolEeW57rB61IrCrg" name="poly" isAbstract="true">
-        <ownedParameter xmi:id="_dVAbQAolEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MuPucAVxEeWXzfeSmmg0Yw" name="transmittersToListeners" visibility="protected" memberEnd="_MuPucQVxEeWXzfeSmmg0Yw _MuQVgQVxEeWXzfeSmmg0Yw" navigableOwnedEnd="_MuQVgQVxEeWXzfeSmmg0Yw">

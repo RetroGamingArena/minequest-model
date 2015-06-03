@@ -161,11 +161,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ar1hwPHDEeSU2M_KtQEOUA" name="VoxelScene">
       <generalization xmi:id="_We3wQPHDEeSU2M_KtQEOUA" general="_Ar2y8PDeEeSU2M_KtQEOUA"/>
-      <ownedOperation xmi:id="_uWFBgAojEeW57rB61IrCrg" name="updateIndices">
-        <ownedParameter xmi:id="___YagAojEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RLhAQPHDEeSU2M_KtQEOUA" name="GameScene">
       <generalization xmi:id="_XLnhgPHDEeSU2M_KtQEOUA" general="_Ar1hwPHDEeSU2M_KtQEOUA"/>
@@ -1541,7 +1536,7 @@
         <ownedParameter xmi:id="_RIB7tAV9EeWXzfeSmmg0Yw" name="* event" type="_i0OC4AV4EeWXzfeSmmg0Yw"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter">
       <ownedOperation xmi:id="_HDslcAV8EeWXzfeSmmg0Yw" name="fireEvent">
         <ownedParameter xmi:id="_KkJ0cAV8EeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1555,11 +1550,6 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_ca0sUAWCEeWXzfeSmmg0Yw" name="* listener" type="_uiF4wAIWEeWbjNAbhTeNBg"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_bzmS4AolEeW57rB61IrCrg" name="poly" isAbstract="true">
-        <ownedParameter xmi:id="_dVAbQAolEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MuPucAVxEeWXzfeSmmg0Yw" name="transmittersToListeners" visibility="protected" memberEnd="_MuPucQVxEeWXzfeSmmg0Yw _MuQVgQVxEeWXzfeSmmg0Yw" navigableOwnedEnd="_MuQVgQVxEeWXzfeSmmg0Yw">

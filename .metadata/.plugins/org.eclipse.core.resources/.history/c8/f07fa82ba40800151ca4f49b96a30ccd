@@ -161,11 +161,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ar1hwPHDEeSU2M_KtQEOUA" name="VoxelScene">
       <generalization xmi:id="_We3wQPHDEeSU2M_KtQEOUA" general="_Ar2y8PDeEeSU2M_KtQEOUA"/>
-      <ownedOperation xmi:id="_uWFBgAojEeW57rB61IrCrg" name="updateIndices">
-        <ownedParameter xmi:id="___YagAojEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RLhAQPHDEeSU2M_KtQEOUA" name="GameScene">
       <generalization xmi:id="_XLnhgPHDEeSU2M_KtQEOUA" general="_Ar1hwPHDEeSU2M_KtQEOUA"/>
@@ -417,11 +412,9 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vNlmc_XZEeSjV6l1_rfr4w" value="1"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_S1foMAigEeW57rB61IrCrg" name="getMask">
-        <ownedParameter xmi:id="_VNqZcAigEeW57rB61IrCrg" type="_D_DjwPTpEeSsEf-9y1lS0g" direction="return">
+      <ownedOperation xmi:id="_S1foMAigEeW57rB61IrCrg" name="updateMask">
+        <ownedParameter xmi:id="_VNqZcAigEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_D4_24AikEeW57rB61IrCrg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_D4_24QikEeW57rB61IrCrg" value="1"/>
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
@@ -463,6 +456,16 @@
       <ownedEnd xmi:id="_z3ffQf_pEeSKSsyltveFdA" name="item" visibility="private" type="_o84-APQkEeSIFroSQ3PJhQ" association="_z3e4MP_pEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z3ffQv_pEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z3ffQ__pEeSKSsyltveFdA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BFcG8AigEeW57rB61IrCrg" name="mask[*]" visibility="private" memberEnd="_BFhmgAigEeW57rB61IrCrg _BGAusQigEeW57rB61IrCrg" navigableOwnedEnd="_BGAusQigEeW57rB61IrCrg">
+      <ownedEnd xmi:id="_BFhmgAigEeW57rB61IrCrg" name="cameras" visibility="private" type="_FaiIkPDeEeSU2M_KtQEOUA" aggregation="composite" association="_BFcG8AigEeW57rB61IrCrg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BGAHoAigEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BGAusAigEeW57rB61IrCrg" value="1"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_BGAusQigEeW57rB61IrCrg" name="mask" visibility="private" type="_xJzK4AWEEeWXzfeSmmg0Yw" association="_BFcG8AigEeW57rB61IrCrg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BGeowAigEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BGeowQigEeW57rB61IrCrg" value="1"/>
       </ownedEnd>
     </packagedElement>
   </packagedElement>
@@ -1541,7 +1544,7 @@
         <ownedParameter xmi:id="_RIB7tAV9EeWXzfeSmmg0Yw" name="* event" type="_i0OC4AV4EeWXzfeSmmg0Yw"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_LQc0YAVpEeWXzfeSmmg0Yw" name="Transmitter">
       <ownedOperation xmi:id="_HDslcAV8EeWXzfeSmmg0Yw" name="fireEvent">
         <ownedParameter xmi:id="_KkJ0cAV8EeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1555,11 +1558,6 @@
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_ca0sUAWCEeWXzfeSmmg0Yw" name="* listener" type="_uiF4wAIWEeWbjNAbhTeNBg"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_bzmS4AolEeW57rB61IrCrg" name="poly" isAbstract="true">
-        <ownedParameter xmi:id="_dVAbQAolEeW57rB61IrCrg" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MuPucAVxEeWXzfeSmmg0Yw" name="transmittersToListeners" visibility="protected" memberEnd="_MuPucQVxEeWXzfeSmmg0Yw _MuQVgQVxEeWXzfeSmmg0Yw" navigableOwnedEnd="_MuQVgQVxEeWXzfeSmmg0Yw">
