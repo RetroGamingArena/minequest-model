@@ -1112,10 +1112,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AonagQZPEeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AooBkAZPEeWXzfeSmmg0Yw" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_3qEiIAozEeW57rB61IrCrg" name="generated" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3qEiIQozEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3qEiIgozEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_HyiaQPTaEeSsEf-9y1lS0g" name="generate">
         <ownedParameter xmi:id="_KNhO8PTaEeSsEf-9y1lS0g" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
