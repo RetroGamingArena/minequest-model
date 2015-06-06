@@ -6794,7 +6794,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_yZavoAvaEeW57rB61IrCrg" name="buffering : bool [0..1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_yZavoAvaEeW57rB61IrCrg" name="buffered : bool [0..1]">
             <target xmi:type="uml:Property" href="main.uml#_yXs4YwvaEeW57rB61IrCrg"/>
             <semanticElements xmi:type="uml:Property" href="main.uml#_yXs4YwvaEeW57rB61IrCrg"/>
             <ownedStyle xmi:type="diagram:Square" xmi:id="_yZavoQvaEeW57rB61IrCrg" labelAlignment="LEFT">

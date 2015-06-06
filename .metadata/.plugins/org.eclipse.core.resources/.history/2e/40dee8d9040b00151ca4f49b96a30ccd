@@ -185,18 +185,10 @@
       <ownedAttribute xmi:id="_H6CJkAr4EeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H6CJkQr4EeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H6CJkgr4EeW57rB61IrCrg" value="1"/>
-        <qualifier xmi:id="_PiGyIAuQEeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiGyIQuQEeW57rB61IrCrg"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiGyIguQEeW57rB61IrCrg" value="1"/>
-        </qualifier>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_PhC9QAsDEeW57rB61IrCrg" name="bufferAddMutex" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
+      <ownedAttribute xmi:id="_PhC9QAsDEeW57rB61IrCrg" name="bufferAddMutex" type="_FOHq4PQYEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PhDkUAsDEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PhDkUQsDEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_PiHZMAuQEeW57rB61IrCrg" name="updateBufferCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiHZMQuQEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiHZMguQEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_buLLYP8kEeSKSsyltveFdA" name="reset">
         <ownedParameter xmi:id="_otDAIP8lEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
@@ -1131,14 +1123,6 @@
       <ownedAttribute xmi:id="_3qEiIAozEeW57rB61IrCrg" name="generated" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3qEiIQozEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3qEiIgozEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_yXs4YAvaEeW57rB61IrCrg" name="generating" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4YQvaEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4YgvaEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_yXs4YwvaEeW57rB61IrCrg" name="buffering" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4ZAvaEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4ZQvaEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_HyiaQPTaEeSsEf-9y1lS0g" name="generate">
         <ownedParameter xmi:id="_KNhO8PTaEeSsEf-9y1lS0g" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">

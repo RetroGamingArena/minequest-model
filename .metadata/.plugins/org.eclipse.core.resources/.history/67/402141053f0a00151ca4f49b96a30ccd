@@ -182,22 +182,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZTzUwAX1EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTzUwQX1EeWXzfeSmmg0Yw" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_H6CJkAr4EeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H6CJkQr4EeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H6CJkgr4EeW57rB61IrCrg" value="1"/>
-        <qualifier xmi:id="_PiGyIAuQEeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiGyIQuQEeW57rB61IrCrg"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiGyIguQEeW57rB61IrCrg" value="1"/>
-        </qualifier>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_PhC9QAsDEeW57rB61IrCrg" name="bufferAddMutex" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PhDkUAsDEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PhDkUQsDEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_PiHZMAuQEeW57rB61IrCrg" name="updateBufferCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiHZMQuQEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiHZMguQEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_buLLYP8kEeSKSsyltveFdA" name="reset">
         <ownedParameter xmi:id="_otDAIP8lEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1132,14 +1116,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3qEiIQozEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3qEiIgozEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_yXs4YAvaEeW57rB61IrCrg" name="generating" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4YQvaEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4YgvaEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_yXs4YwvaEeW57rB61IrCrg" name="buffering" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4ZAvaEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4ZQvaEeW57rB61IrCrg" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_HyiaQPTaEeSsEf-9y1lS0g" name="generate">
         <ownedParameter xmi:id="_KNhO8PTaEeSsEf-9y1lS0g" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1299,8 +1275,6 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fLFY0PQ8EeSIFroSQ3PJhQ" name="float"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_jJujMPQ9EeSIFroSQ3PJhQ" name="thread">
     <packagedElement xmi:type="uml:Class" xmi:id="_nVpxEPQ9EeSIFroSQ3PJhQ" name="Pool" isAbstract="true">
-      <generalization xmi:id="_LeHsEAqPEeW57rB61IrCrg" general="_LQc0YAVpEeWXzfeSmmg0Yw"/>
-      <generalization xmi:id="_QEbI0AqPEeW57rB61IrCrg" general="_uiF4wAIWEeWbjNAbhTeNBg"/>
       <ownedAttribute xmi:id="_0y71kPQ9EeSIFroSQ3PJhQ" name="threadCount" visibility="protected" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0y8coPQ9EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0y8cofQ9EeSIFroSQ3PJhQ" value="1"/>
@@ -1362,7 +1336,6 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3ESiQPQ_EeSIFroSQ3PJhQ" name="Thread">
-      <generalization xmi:id="_0iTCcAo_EeW57rB61IrCrg" general="_LQc0YAVpEeWXzfeSmmg0Yw"/>
       <ownedAttribute xmi:id="_SgB_EPTXEeSsEf-9y1lS0g" name="mutex" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SgDNMPTXEeSsEf-9y1lS0g"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SgDNMfTXEeSsEf-9y1lS0g" value="1"/>
@@ -1616,11 +1589,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fb18YAV5EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fb18YQV5EeWXzfeSmmg0Yw" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_lYPCUAV5EeWXzfeSmmg0Yw" name="&quot;CHANGED&quot;"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_MQ4I4ApGEeW57rB61IrCrg" name="ID_FINISHED" isStatic="true" type="_1XtvoPJmEeSU2M_KtQEOUA">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MQ4I4QpGEeW57rB61IrCrg"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MQ4I4gpGEeW57rB61IrCrg" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_MQ4I4wpGEeW57rB61IrCrg" name="&quot;FINISHED&quot;"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_t4tEAAV4EeWXzfeSmmg0Yw" name="transmittersToEvents" visibility="protected" memberEnd="_t4trEAV4EeWXzfeSmmg0Yw _t4uSIQV4EeWXzfeSmmg0Yw" navigableOwnedEnd="_t4uSIQV4EeWXzfeSmmg0Yw">

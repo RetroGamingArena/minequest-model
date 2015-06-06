@@ -1136,7 +1136,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4YQvaEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4YgvaEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_yXs4YwvaEeW57rB61IrCrg" name="buffering" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+      <ownedAttribute xmi:id="_yXs4YwvaEeW57rB61IrCrg" name="buffered" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4ZAvaEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4ZQvaEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>

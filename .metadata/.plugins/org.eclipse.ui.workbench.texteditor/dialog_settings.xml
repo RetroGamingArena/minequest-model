@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="265" key="DIALOG_WIDTH"/>
 		<item value="295" key="DIALOG_Y_ORIGIN"/>
-		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="193" key="DIALOG_X_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="addListener" key="selection"/>
+		<item value="FINISHED" key="selection"/>
 		<list key="findhistory">
+			<item value="finished"/>
 			<item value="addlistener@"/>
 			<item value="addlistener"/>
 			<item value="fireevent"/>
@@ -22,7 +23,6 @@
 			<item value="fireeevent"/>
 			<item value="\"/>
 			<item value="id_changed&quot;"/>
-			<item value="id_changed"/>
 		</list>
 		<list key="replacehistory">
 		</list>
