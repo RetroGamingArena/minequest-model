@@ -782,7 +782,6 @@
         <ownedParameter xmi:id="_t937tA7rEeW4cb9mtb7ITA" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_t937tQ7rEeW4cb9mtb7ITA" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_t937tg7rEeW4cb9mtb7ITA" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_SmArUA7uEeW4cb9mtb7ITA" name="position" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">

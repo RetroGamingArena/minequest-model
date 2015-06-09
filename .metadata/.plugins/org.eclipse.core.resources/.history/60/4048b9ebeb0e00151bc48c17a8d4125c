@@ -772,18 +772,6 @@
         <ownedParameter xmi:id="_oC4tZA4OEeW4cb9mtb7ITA" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_oC4tZg4OEeW4cb9mtb7ITA" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_t937sA7rEeW4cb9mtb7ITA" name="setVertex">
-        <ownedParameter xmi:id="_t937sQ7rEeW4cb9mtb7ITA" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6tkhcA7rEeW4cb9mtb7ITA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6tkhcQ7rEeW4cb9mtb7ITA" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_t937sg7rEeW4cb9mtb7ITA" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_t937sw7rEeW4cb9mtb7ITA" name="y" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_t937tA7rEeW4cb9mtb7ITA" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_t937tQ7rEeW4cb9mtb7ITA" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_t937tg7rEeW4cb9mtb7ITA" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_SmArUA7uEeW4cb9mtb7ITA" name="position" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">
       <ownedEnd xmi:id="_0uLzMPKiEeSU2M_KtQEOUA" name="doubleBuffers" visibility="private" type="_W3rdgPKiEeSU2M_KtQEOUA" aggregation="composite" association="_0uLMIPKiEeSU2M_KtQEOUA">

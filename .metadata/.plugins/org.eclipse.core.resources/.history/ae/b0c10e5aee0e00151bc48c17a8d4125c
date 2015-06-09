@@ -5724,10 +5724,9 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_t_S4AA7rEeW4cb9mtb7ITA" name="setVertex(x : float, y : float, z : float, type : float, ao : float, position : int) : void[1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_t_S4AA7rEeW4cb9mtb7ITA" name="setVertex(x : float, y : float, z : float, type : float, ao : float) : void[1]">
             <target xmi:type="uml:Operation" href="main.uml#_t937sA7rEeW4cb9mtb7ITA"/>
             <semanticElements xmi:type="uml:Operation" href="main.uml#_t937sA7rEeW4cb9mtb7ITA"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_SmArUA7uEeW4cb9mtb7ITA"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_t937tg7rEeW4cb9mtb7ITA"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_t937tQ7rEeW4cb9mtb7ITA"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_t937tA7rEeW4cb9mtb7ITA"/>
