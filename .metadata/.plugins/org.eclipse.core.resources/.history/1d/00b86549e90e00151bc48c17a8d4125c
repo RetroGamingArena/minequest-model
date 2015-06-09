@@ -116,8 +116,6 @@ class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') s
 			[/for]
 
 	protected:
-	// [protected ('protected')]
-	// [/protected]
 			[for (aProperty : Property | aClass.attribute)]
 				[if (aProperty.visibility.toString().equalsIgnoreCase('protected'))]
 	[if(aProperty.isStatic)]static [/if][if(aProperty.upper = -1)]vector<[/if][aProperty.type.name/][if(aProperty.upper = -1)]>[/if] [aProperty.name/];

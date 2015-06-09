@@ -1590,14 +1590,6 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ilz0sP_sEeSKSsyltveFdA" name="Camera*"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_xIr7IACjEeWKSsyltveFdA" name="background">
     <packagedElement xmi:type="uml:Class" xmi:id="_2858gACjEeWKSsyltveFdA" name="Background">
-      <ownedAttribute xmi:id="_UDXNYA7eEeW4cb9mtb7ITA" name="firstColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UDX0cA7eEeW4cb9mtb7ITA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UDX0cQ7eEeW4cb9mtb7ITA" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_XYNpUA7eEeW4cb9mtb7ITA" name="lastColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XYNpUQ7eEeW4cb9mtb7ITA"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XYNpUg7eEeW4cb9mtb7ITA" value="1"/>
-      </ownedAttribute>
       <ownedOperation xmi:id="_WTmAoACmEeWKSsyltveFdA" name="render">
         <ownedParameter xmi:id="_WTmAoQCmEeWKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>

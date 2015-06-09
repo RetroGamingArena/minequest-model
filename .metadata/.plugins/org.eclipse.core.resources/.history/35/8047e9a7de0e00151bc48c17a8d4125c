@@ -1594,7 +1594,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UDX0cA7eEeW4cb9mtb7ITA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UDX0cQ7eEeW4cb9mtb7ITA" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_XYNpUA7eEeW4cb9mtb7ITA" name="lastColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
+      <ownedAttribute xmi:id="_XYNpUA7eEeW4cb9mtb7ITA" name="firstColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XYNpUQ7eEeW4cb9mtb7ITA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XYNpUg7eEeW4cb9mtb7ITA" value="1"/>
       </ownedAttribute>

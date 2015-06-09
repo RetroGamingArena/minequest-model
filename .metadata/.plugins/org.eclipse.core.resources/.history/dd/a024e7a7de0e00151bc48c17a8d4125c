@@ -8333,7 +8333,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XaCOQA7eEeW4cb9mtb7ITA" name="lastColor : glm::vec3 [0..1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_XaCOQA7eEeW4cb9mtb7ITA" name="firstColor : glm::vec3 [0..1]">
             <target xmi:type="uml:Property" href="main.uml#_XYNpUA7eEeW4cb9mtb7ITA"/>
             <semanticElements xmi:type="uml:Property" href="main.uml#_XYNpUA7eEeW4cb9mtb7ITA"/>
             <ownedStyle xmi:type="diagram:Square" xmi:id="_XaCOQQ7eEeW4cb9mtb7ITA" labelAlignment="LEFT">
