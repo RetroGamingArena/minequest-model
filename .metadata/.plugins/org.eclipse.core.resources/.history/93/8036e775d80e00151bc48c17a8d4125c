@@ -323,7 +323,7 @@
         <ownedParameter xmi:id="_0P1ci_XSEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_QS4P4P_sEeSKSsyltveFdA" name="getSelectedCamera">
-        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_YizUgA7bEeW4cb9mtb7ITA" direction="return">
+        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_ilz0sP_sEeSKSsyltveFdA" direction="return">
           <name xsi:nil="true"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WhJwAP_sEeSKSsyltveFdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WhKXEP_sEeSKSsyltveFdA" value="1"/>
@@ -346,7 +346,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu9PEf_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu92IP_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_x8bUMA6kEeW4cb9mtb7ITA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_FaiIkPDeEeSU2M_KtQEOUA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu-dMP_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
@@ -479,7 +479,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z3ffQ__pEeSKSsyltveFdA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_x8bUMA6kEeW4cb9mtb7ITA" name="InputCamera" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_x8bUMA6kEeW4cb9mtb7ITA" name="InputCamera">
       <generalization xmi:id="_i_kocA6mEeW4cb9mtb7ITA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
       <ownedAttribute xmi:id="_ltOL0PXLEeSjV6l1_rfr4w" name="oldY" visibility="protected" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ltOL0fXLEeSjV6l1_rfr4w"/>
@@ -1692,5 +1692,4 @@
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KdWJMAV5EeWXzfeSmmg0Yw" name="void*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OHztgAXhEeWXzfeSmmg0Yw" name="Chunk*"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YizUgA7bEeW4cb9mtb7ITA" name="InputCamera*"/>
 </uml:Model>

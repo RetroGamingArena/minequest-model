@@ -323,7 +323,7 @@
         <ownedParameter xmi:id="_0P1ci_XSEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_QS4P4P_sEeSKSsyltveFdA" name="getSelectedCamera">
-        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_YizUgA7bEeW4cb9mtb7ITA" direction="return">
+        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_ilz0sP_sEeSKSsyltveFdA" direction="return">
           <name xsi:nil="true"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WhJwAP_sEeSKSsyltveFdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WhKXEP_sEeSKSsyltveFdA" value="1"/>
@@ -346,7 +346,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu9PEf_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu92IP_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_x8bUMA6kEeW4cb9mtb7ITA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_FaiIkPDeEeSU2M_KtQEOUA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu-dMP_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
@@ -389,6 +389,44 @@
         <ownedParameter xmi:id="_ctZhQPKCEeSU2M_KtQEOUA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TapPgPXPEeSjV6l1_rfr4w" name="onMouseMotion" isAbstract="true">
+        <ownedParameter xmi:id="_TapPgfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPgvXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPg_XPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TapPhPXPEeSjV6l1_rfr4w" name="xpos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_TapPhfXPEeSjV6l1_rfr4w" name="ypos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TapPhvXPEeSjV6l1_rfr4w" name="onKeyboard" isAbstract="true">
+        <ownedParameter xmi:id="_TapPh_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPiPXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPifXPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2kPXPEeSjV6l1_rfr4w" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2kfXPEeSjV6l1_rfr4w" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2kvXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2k_XPEeSjV6l1_rfr4w" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tap2lPXPEeSjV6l1_rfr4w" name="onMouseButton" isAbstract="true">
+        <ownedParameter xmi:id="_Tap2lfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2lvXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2l_XPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2mPXPEeSjV6l1_rfr4w" name="button" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2mfXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tap2mvXPEeSjV6l1_rfr4w" name="onMouseWheel" isAbstract="true">
+        <ownedParameter xmi:id="_Tap2m_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2nPXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2nfXPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2nvXPEeSjV6l1_rfr4w" name="xoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_Tap2n_XPEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_hMpbQPXZEeSjV6l1_rfr4w" name="getPosition" isAbstract="true">
         <ownedParameter xmi:id="_jgcC0PXZEeSjV6l1_rfr4w" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
@@ -437,37 +475,9 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6hcPYfXQEeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6hcPYvXQEeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_T_v84A7XEeW4cb9mtb7ITA" name="getCenter">
-        <ownedParameter xmi:id="_T_v84Q7XEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_v84g7XEeW4cb9mtb7ITA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_v84w7XEeW4cb9mtb7ITA" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_T_v85A7XEeW4cb9mtb7ITA" name="getPosition">
-        <ownedParameter xmi:id="_T_v85Q7XEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_v85g7XEeW4cb9mtb7ITA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_v85w7XEeW4cb9mtb7ITA" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_l9_SsP9CEeSKSsyltveFdA" name="ItemCamera">
       <generalization xmi:id="_iM084A6mEeW4cb9mtb7ITA" general="_x8bUMA6kEeW4cb9mtb7ITA"/>
-      <ownedOperation xmi:id="_E7RqYA7SEeW4cb9mtb7ITA" name="getPosition">
-        <ownedParameter xmi:id="_E7RqYQ7SEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E7RqYg7SEeW4cb9mtb7ITA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E7RqYw7SEeW4cb9mtb7ITA" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_E7SRcA7SEeW4cb9mtb7ITA" name="getCenter">
-        <ownedParameter xmi:id="_E7SRcQ7SEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E7SRcg7SEeW4cb9mtb7ITA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E7SRcw7SEeW4cb9mtb7ITA" value="1"/>
-        </ownedParameter>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_z3e4MP_pEeSKSsyltveFdA" name="item[*]" visibility="private" memberEnd="_z3e4Mf_pEeSKSsyltveFdA _z3ffQf_pEeSKSsyltveFdA" navigableOwnedEnd="_z3ffQf_pEeSKSsyltveFdA">
       <ownedEnd xmi:id="_z3e4Mf_pEeSKSsyltveFdA" name="itemCameras" visibility="private" type="_l9_SsP9CEeSKSsyltveFdA" aggregation="composite" association="_z3e4MP_pEeSKSsyltveFdA">
@@ -479,7 +489,7 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z3ffQ__pEeSKSsyltveFdA" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_x8bUMA6kEeW4cb9mtb7ITA" name="InputCamera" isAbstract="true">
+    <packagedElement xmi:type="uml:Class" xmi:id="_x8bUMA6kEeW4cb9mtb7ITA" name="InputCamera">
       <generalization xmi:id="_i_kocA6mEeW4cb9mtb7ITA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
       <ownedAttribute xmi:id="_ltOL0PXLEeSjV6l1_rfr4w" name="oldY" visibility="protected" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ltOL0fXLEeSjV6l1_rfr4w"/>
@@ -489,44 +499,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrNowfXLEeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OrNowvXLEeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_TapPgPXPEeSjV6l1_rfr4w" name="onMouseMotion" isAbstract="true">
-        <ownedParameter xmi:id="_TapPgfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPgvXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPg_XPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_TapPhPXPEeSjV6l1_rfr4w" name="xpos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_TapPhfXPEeSjV6l1_rfr4w" name="ypos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Tap2lPXPEeSjV6l1_rfr4w" name="onMouseButton" isAbstract="true">
-        <ownedParameter xmi:id="_Tap2lfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2lvXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2l_XPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2mPXPEeSjV6l1_rfr4w" name="button" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2mfXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_TapPhvXPEeSjV6l1_rfr4w" name="onKeyboard" isAbstract="true">
-        <ownedParameter xmi:id="_TapPh_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPiPXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPifXPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2kPXPEeSjV6l1_rfr4w" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2kfXPEeSjV6l1_rfr4w" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2kvXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2k_XPEeSjV6l1_rfr4w" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Tap2mvXPEeSjV6l1_rfr4w" name="onMouseWheel" isAbstract="true">
-        <ownedParameter xmi:id="_Tap2m_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2nPXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2nfXPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2nvXPEeSjV6l1_rfr4w" name="xoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_Tap2n_XPEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7YATYPJAEeSU2M_KtQEOUA" name="shader">
@@ -1692,5 +1664,4 @@
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KdWJMAV5EeWXzfeSmmg0Yw" name="void*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OHztgAXhEeWXzfeSmmg0Yw" name="Chunk*"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YizUgA7bEeW4cb9mtb7ITA" name="InputCamera*"/>
 </uml:Model>

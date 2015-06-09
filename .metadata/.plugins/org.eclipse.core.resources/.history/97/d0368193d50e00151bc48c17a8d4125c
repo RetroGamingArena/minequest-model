@@ -79,9 +79,6 @@ int main(int argc, char **argv)
 
 using namespace std;
 
-// [protected ('class import')]
-// [/protected]
-
 class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') separator (', ')]public [superClass.name/][/for]
 {
 	// [protected ('private')]

@@ -346,7 +346,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu9PEf_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu92IP_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_x8bUMA6kEeW4cb9mtb7ITA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_FaiIkPDeEeSU2M_KtQEOUA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu-dMP_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>

@@ -323,7 +323,7 @@
         <ownedParameter xmi:id="_0P1ci_XSEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_QS4P4P_sEeSKSsyltveFdA" name="getSelectedCamera">
-        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_YizUgA7bEeW4cb9mtb7ITA" direction="return">
+        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_ilz0sP_sEeSKSsyltveFdA" direction="return">
           <name xsi:nil="true"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WhJwAP_sEeSKSsyltveFdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WhKXEP_sEeSKSsyltveFdA" value="1"/>
@@ -346,7 +346,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu9PEf_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu92IP_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_x8bUMA6kEeW4cb9mtb7ITA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_FaiIkPDeEeSU2M_KtQEOUA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu-dMP_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>

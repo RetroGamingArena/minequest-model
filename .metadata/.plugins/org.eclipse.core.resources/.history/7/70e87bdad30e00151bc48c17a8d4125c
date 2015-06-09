@@ -84,8 +84,6 @@ using namespace std;
 
 class [aClass.name/][for(superClass : Class | aClass.superClass) before(' : ') separator (', ')]public [superClass.name/][/for]
 {
-	// [protected ('private')]
-	// [/protected]
 			[for (anAssociation : Association | aClass.getAssociations())]
 				[for(anEnd : Property | anAssociation.ownedEnd)]
 					[if(anEnd.type.name.equalsIgnoreCase(aClass.name) and anEnd.aggregation.toString().equalsIgnoreCase('composite') and anEnd.visibility.toString().equalsIgnoreCase('private'))]
