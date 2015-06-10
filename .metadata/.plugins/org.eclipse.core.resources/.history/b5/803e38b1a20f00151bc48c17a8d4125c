@@ -58,9 +58,6 @@ int main(int argc, char **argv)
 #include "../depends/glm/glm.hpp"
 #include "../depends/glm/gtc/matrix_transform.hpp"
 
-// [protected ('defines')]
-// [/protected]
-
 // [protected ('includes')]
 // [/protected]
 
