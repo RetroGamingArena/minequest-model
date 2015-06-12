@@ -954,26 +954,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_IOrLoPQ1EeSIFroSQ3PJhQ" name="DebugUI">
       <generalization xmi:id="_c7CF8PQ1EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
-      <nestedClassifier xmi:type="uml:Association" xmi:id="_7U3rcBEvEeWsiNjc5TJbtQ" name="instanceCountLabel[0..1]" visibility="private" memberEnd="_7U4SgBEvEeWsiNjc5TJbtQ _7U4SgxEvEeWsiNjc5TJbtQ" navigableOwnedEnd="_7U4SgxEvEeWsiNjc5TJbtQ">
-        <ownedEnd xmi:id="_7U4SgBEvEeWsiNjc5TJbtQ" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_7U3rcBEvEeWsiNjc5TJbtQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7U4SgREvEeWsiNjc5TJbtQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7U4SghEvEeWsiNjc5TJbtQ" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:id="_7U4SgxEvEeWsiNjc5TJbtQ" name="instanceCountLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_7U3rcBEvEeWsiNjc5TJbtQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7U4ShBEvEeWsiNjc5TJbtQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7U4ShREvEeWsiNjc5TJbtQ" value="1"/>
-        </ownedEnd>
-      </nestedClassifier>
-      <nestedClassifier xmi:type="uml:Association" xmi:id="_-P55MBEvEeWsiNjc5TJbtQ" name="occludedCountLabel[0..1]" visibility="private" memberEnd="_-P55MREvEeWsiNjc5TJbtQ _-P55NBEvEeWsiNjc5TJbtQ" navigableOwnedEnd="_-P55NBEvEeWsiNjc5TJbtQ">
-        <ownedEnd xmi:id="_-P55MREvEeWsiNjc5TJbtQ" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_-P55MBEvEeWsiNjc5TJbtQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-P55MhEvEeWsiNjc5TJbtQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-P55MxEvEeWsiNjc5TJbtQ" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:id="_-P55NBEvEeWsiNjc5TJbtQ" name="occludedCountLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_-P55MBEvEeWsiNjc5TJbtQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-P55NREvEeWsiNjc5TJbtQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-P55NhEvEeWsiNjc5TJbtQ" value="1"/>
-        </ownedEnd>
-      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_1EDvMAP-EeWXzfeSmmg0Yw" name="fPSLabel[*]" visibility="private" memberEnd="_1EEWQAP-EeWXzfeSmmg0Yw _1EfNAQP-EeWXzfeSmmg0Yw" navigableOwnedEnd="_1EfNAQP-EeWXzfeSmmg0Yw">
       <ownedEnd xmi:id="_1EEWQAP-EeWXzfeSmmg0Yw" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_1EDvMAP-EeWXzfeSmmg0Yw">
@@ -1126,14 +1106,6 @@
       <ownedAttribute xmi:id="_DExqMAP6EeWXzfeSmmg0Yw" name="cubeCount" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DEyRQAP6EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DEyRQQP6EeWXzfeSmmg0Yw" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_AdfkYBErEeWsiNjc5TJbtQ" name="instanceCount" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AdfkYRErEeWsiNjc5TJbtQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdfkYhErEeWsiNjc5TJbtQ" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Cxu34BErEeWsiNjc5TJbtQ" name="occludedCount" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxu34RErEeWsiNjc5TJbtQ"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cxu34hErEeWsiNjc5TJbtQ" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_8JXJ4PWYEeSjV6l1_rfr4w" name="isCubeVisible">
         <ownedParameter xmi:id="_8JXJ4fWYEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
