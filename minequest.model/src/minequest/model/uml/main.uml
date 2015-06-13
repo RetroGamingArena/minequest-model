@@ -1157,7 +1157,9 @@
         <ownedParameter xmi:id="_HGtBNPWZEeSjV6l1_rfr4w" name="p" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_HGtBNfWZEeSjV6l1_rfr4w" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_HGtBNvWZEeSjV6l1_rfr4w" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="_HGtBN_WZEeSjV6l1_rfr4w" name="width" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_HGtBN_WZEeSjV6l1_rfr4w" name="widthP" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_NjS-IBIJEeW__K5kWA2ScQ" name="widthQ" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_NjS-IRIJEeW__K5kWA2ScQ" name="widthR" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_H_R84AGrEeWbjNAbhTeNBg" name="occlusion" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
       </ownedOperation>
       <ownedOperation xmi:id="_NyOokPWaEeSjV6l1_rfr4w" name="getCube">
@@ -1167,21 +1169,6 @@
         <ownedParameter xmi:id="_NyOolPWaEeSjV6l1_rfr4w" name="x" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_NyOolfWaEeSjV6l1_rfr4w" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_NyOolvWaEeSjV6l1_rfr4w" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="__Hh54APrEeWXzfeSmmg0Yw" name="bufferizeEntryRect">
-        <ownedParameter xmi:id="__Hh54QPrEeWXzfeSmmg0Yw" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__Hh54gPrEeWXzfeSmmg0Yw" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__Hh54wPrEeWXzfeSmmg0Yw" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="__Hh55APrEeWXzfeSmmg0Yw" name="* vertexBuffer" type="_vSnKEPKcEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="__Hh55QPrEeWXzfeSmmg0Yw" name="type" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
-        <ownedParameter xmi:id="__Hh55gPrEeWXzfeSmmg0Yw" name="p" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="__Hh55wPrEeWXzfeSmmg0Yw" name="q" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="__Hh56APrEeWXzfeSmmg0Yw" name="r" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
-        <ownedParameter xmi:id="__Hh56QPrEeWXzfeSmmg0Yw" name="width" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_DIxhwAPsEeWXzfeSmmg0Yw" name="height" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="__Hh56gPrEeWXzfeSmmg0Yw" name="occlusion" type="_D_DjwPTpEeSsEf-9y1lS0g"/>
       </ownedOperation>
       <ownedOperation xmi:id="_ZK3nwAXgEeWXzfeSmmg0Yw" name="getChunk">
         <ownedParameter xmi:id="_pmRqQAXgEeWXzfeSmmg0Yw" type="_OHztgAXhEeWXzfeSmmg0Yw" direction="return">

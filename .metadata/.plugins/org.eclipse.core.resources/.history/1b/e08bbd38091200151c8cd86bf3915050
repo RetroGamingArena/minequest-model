@@ -182,6 +182,38 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ZTzUwAX1EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZTzUwQX1EeWXzfeSmmg0Yw" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_H6CJkAr4EeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_H6CJkQr4EeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_H6CJkgr4EeW57rB61IrCrg" value="1"/>
+        <qualifier xmi:id="_PiGyIAuQEeW57rB61IrCrg" name="updateChunksCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiGyIQuQEeW57rB61IrCrg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiGyIguQEeW57rB61IrCrg" value="1"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PhC9QAsDEeW57rB61IrCrg" name="bufferAddMutex" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PhDkUAsDEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PhDkUQsDEeW57rB61IrCrg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_PiHZMAuQEeW57rB61IrCrg" name="updateBufferCpt" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PiHZMQuQEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PiHZMguQEeW57rB61IrCrg" value="1"/>
+        <qualifier xmi:id="_3e7zcA1EEeW4cb9mtb7ITA" name="updateChunks" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3e7zcQ1EEeW4cb9mtb7ITA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3e7zcg1EEeW4cb9mtb7ITA" value="1"/>
+        </qualifier>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GrfeMA06EeW4cb9mtb7ITA" name="oldMask" visibility="private" type="_D_DjwPTpEeSsEf-9y1lS0g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GrgFQA06EeW4cb9mtb7ITA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GrgFQQ06EeW4cb9mtb7ITA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4wapcA1EEeW4cb9mtb7ITA" name="cameraLock" visibility="private" type="_FOHq4PQYEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4wapcQ1EEeW4cb9mtb7ITA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4wapcg1EEeW4cb9mtb7ITA" value="1"/>
+        <qualifier xmi:id="_4wapcw1EEeW4cb9mtb7ITA" name="updateChunks" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4wapdA1EEeW4cb9mtb7ITA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4wapdQ1EEeW4cb9mtb7ITA" value="1"/>
+        </qualifier>
+      </ownedAttribute>
       <ownedOperation xmi:id="_buLLYP8kEeSKSsyltveFdA" name="reset">
         <ownedParameter xmi:id="_otDAIP8lEeSKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -291,7 +323,7 @@
         <ownedParameter xmi:id="_0P1ci_XSEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
       <ownedOperation xmi:id="_QS4P4P_sEeSKSsyltveFdA" name="getSelectedCamera">
-        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_ilz0sP_sEeSKSsyltveFdA" direction="return">
+        <ownedParameter xmi:id="_SZsycP_sEeSKSsyltveFdA" type="_YizUgA7bEeW4cb9mtb7ITA" direction="return">
           <name xsi:nil="true"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_WhJwAP_sEeSKSsyltveFdA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WhKXEP_sEeSKSsyltveFdA" value="1"/>
@@ -314,7 +346,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu9PEf_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu92IP_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
-      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_FaiIkPDeEeSU2M_KtQEOUA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
+      <ownedEnd xmi:id="_Uu92If_rEeSKSsyltveFdA" name="cameras" visibility="protected" type="_x8bUMA6kEeW4cb9mtb7ITA" isReadOnly="true" association="_Uu8oAP_rEeSKSsyltveFdA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Uu-dMP_rEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Uu-dMf_rEeSKSsyltveFdA" value="*"/>
       </ownedEnd>
@@ -358,44 +390,6 @@
           <name xsi:nil="true"/>
         </ownedParameter>
       </ownedOperation>
-      <ownedOperation xmi:id="_TapPgPXPEeSjV6l1_rfr4w" name="onMouseMotion" isAbstract="true">
-        <ownedParameter xmi:id="_TapPgfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPgvXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPg_XPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_TapPhPXPEeSjV6l1_rfr4w" name="xpos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_TapPhfXPEeSjV6l1_rfr4w" name="ypos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_TapPhvXPEeSjV6l1_rfr4w" name="onKeyboard" isAbstract="true">
-        <ownedParameter xmi:id="_TapPh_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPiPXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPifXPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2kPXPEeSjV6l1_rfr4w" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2kfXPEeSjV6l1_rfr4w" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2kvXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2k_XPEeSjV6l1_rfr4w" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Tap2lPXPEeSjV6l1_rfr4w" name="onMouseButton" isAbstract="true">
-        <ownedParameter xmi:id="_Tap2lfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2lvXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2l_XPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2mPXPEeSjV6l1_rfr4w" name="button" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-        <ownedParameter xmi:id="_Tap2mfXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_Tap2mvXPEeSjV6l1_rfr4w" name="onMouseWheel" isAbstract="true">
-        <ownedParameter xmi:id="_Tap2m_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2nPXPEeSjV6l1_rfr4w" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2nfXPEeSjV6l1_rfr4w" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_Tap2nvXPEeSjV6l1_rfr4w" name="xoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_Tap2n_XPEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
       <ownedOperation xmi:id="_hMpbQPXZEeSjV6l1_rfr4w" name="getPosition" isAbstract="true">
         <ownedParameter xmi:id="_jgcC0PXZEeSjV6l1_rfr4w" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
@@ -426,18 +420,10 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-9t9oPHDEeSU2M_KtQEOUA" name="TrackBallCamera">
-      <generalization xmi:id="_BW6CkPHEEeSU2M_KtQEOUA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
+      <generalization xmi:id="_TxkNMA6mEeW4cb9mtb7ITA" general="_x8bUMA6kEeW4cb9mtb7ITA"/>
       <ownedAttribute xmi:id="_yOYZkPW7EeSjV6l1_rfr4w" name="distance" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yOZAoPW7EeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yOZnsPW7EeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_OrNowPXLEeSjV6l1_rfr4w" name="oldX" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrNowfXLEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OrNowvXLEeSjV6l1_rfr4w" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_ltOL0PXLEeSjV6l1_rfr4w" name="oldY" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ltOL0fXLEeSjV6l1_rfr4w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ltOL0vXLEeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_nRCH8PXLEeSjV6l1_rfr4w" name="hold" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nRCH8fXLEeSjV6l1_rfr4w"/>
@@ -451,9 +437,37 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6hcPYfXQEeSjV6l1_rfr4w"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6hcPYvXQEeSjV6l1_rfr4w" value="1"/>
       </ownedAttribute>
+      <ownedOperation xmi:id="_T_v84A7XEeW4cb9mtb7ITA" name="getCenter">
+        <ownedParameter xmi:id="_T_v84Q7XEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_v84g7XEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_v84w7XEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T_v85A7XEeW4cb9mtb7ITA" name="getPosition">
+        <ownedParameter xmi:id="_T_v85Q7XEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_T_v85g7XEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T_v85w7XEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_l9_SsP9CEeSKSsyltveFdA" name="ItemCamera">
-      <generalization xmi:id="_nHfRYP9CEeSKSsyltveFdA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
+      <generalization xmi:id="_iM084A6mEeW4cb9mtb7ITA" general="_x8bUMA6kEeW4cb9mtb7ITA"/>
+      <ownedOperation xmi:id="_E7RqYA7SEeW4cb9mtb7ITA" name="getPosition">
+        <ownedParameter xmi:id="_E7RqYQ7SEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E7RqYg7SEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E7RqYw7SEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_E7SRcA7SEeW4cb9mtb7ITA" name="getCenter">
+        <ownedParameter xmi:id="_E7SRcQ7SEeW4cb9mtb7ITA" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_E7SRcg7SEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_E7SRcw7SEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_z3e4MP_pEeSKSsyltveFdA" name="item[*]" visibility="private" memberEnd="_z3e4Mf_pEeSKSsyltveFdA _z3ffQf_pEeSKSsyltveFdA" navigableOwnedEnd="_z3ffQf_pEeSKSsyltveFdA">
       <ownedEnd xmi:id="_z3e4Mf_pEeSKSsyltveFdA" name="itemCameras" visibility="private" type="_l9_SsP9CEeSKSsyltveFdA" aggregation="composite" association="_z3e4MP_pEeSKSsyltveFdA">
@@ -464,6 +478,55 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z3ffQv_pEeSKSsyltveFdA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z3ffQ__pEeSKSsyltveFdA" value="1"/>
       </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_x8bUMA6kEeW4cb9mtb7ITA" name="InputCamera" isAbstract="true">
+      <generalization xmi:id="_i_kocA6mEeW4cb9mtb7ITA" general="_FaiIkPDeEeSU2M_KtQEOUA"/>
+      <ownedAttribute xmi:id="_ltOL0PXLEeSjV6l1_rfr4w" name="oldY" visibility="protected" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ltOL0fXLEeSjV6l1_rfr4w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ltOL0vXLEeSjV6l1_rfr4w" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OrNowPXLEeSjV6l1_rfr4w" name="oldX" visibility="protected" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrNowfXLEeSjV6l1_rfr4w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OrNowvXLEeSjV6l1_rfr4w" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_TapPgPXPEeSjV6l1_rfr4w" name="onMouseMotion" isAbstract="true">
+        <ownedParameter xmi:id="_TapPgfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPgvXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPg_XPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_TapPhPXPEeSjV6l1_rfr4w" name="xpos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_TapPhfXPEeSjV6l1_rfr4w" name="ypos" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tap2lPXPEeSjV6l1_rfr4w" name="onMouseButton" isAbstract="true">
+        <ownedParameter xmi:id="_Tap2lfXPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2lvXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2l_XPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2mPXPEeSjV6l1_rfr4w" name="button" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2mfXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TapPhvXPEeSjV6l1_rfr4w" name="onKeyboard" isAbstract="true">
+        <ownedParameter xmi:id="_TapPh_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TapPiPXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TapPifXPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2kPXPEeSjV6l1_rfr4w" name="key" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2kfXPEeSjV6l1_rfr4w" name="scancode" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2kvXPEeSjV6l1_rfr4w" name="action" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+        <ownedParameter xmi:id="_Tap2k_XPEeSjV6l1_rfr4w" name="mods" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_Tap2mvXPEeSjV6l1_rfr4w" name="onMouseWheel" isAbstract="true">
+        <ownedParameter xmi:id="_Tap2m_XPEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <name xsi:nil="true"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Tap2nPXPEeSjV6l1_rfr4w" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Tap2nfXPEeSjV6l1_rfr4w" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Tap2nvXPEeSjV6l1_rfr4w" name="xoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_Tap2n_XPEeSjV6l1_rfr4w" name="yoffset" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+      </ownedOperation>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_7YATYPJAEeSU2M_KtQEOUA" name="shader">
@@ -654,6 +717,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FnBUYPKqEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FnB7cPKqEeSU2M_KtQEOUA" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_DFFbUA4CEeW4cb9mtb7ITA" name="base" visibility="private" type="_8RtAQPKoEeSU2M_KtQEOUA" isReadOnly="true" aggregation="shared">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DFFbUQ4CEeW4cb9mtb7ITA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DFFbUg4CEeW4cb9mtb7ITA" value="*"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_zPcj4PWNEeSjV6l1_rfr4w" name="init">
         <ownedParameter xmi:id="_0wop0PWNEeSjV6l1_rfr4w" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -694,6 +761,28 @@
         <ownedParameter xmi:id="_WIVr1_WCEeSjV6l1_rfr4w" name="z2" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_WIVr2PWCEeSjV6l1_rfr4w" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
         <ownedParameter xmi:id="_WIVr2fWCEeSjV6l1_rfr4w" name="ao" type="_7qIHoPWBEeSjV6l1_rfr4w"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_oC4tYA4OEeW4cb9mtb7ITA" name="bufferizeBaseVertex">
+        <ownedParameter xmi:id="_oC4tYQ4OEeW4cb9mtb7ITA" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r3FXwA4OEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r3FXwQ4OEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_oC4tYg4OEeW4cb9mtb7ITA" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_oC4tYw4OEeW4cb9mtb7ITA" name="y" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_oC4tZA4OEeW4cb9mtb7ITA" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_oC4tZg4OEeW4cb9mtb7ITA" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_t937sA7rEeW4cb9mtb7ITA" name="setVertex">
+        <ownedParameter xmi:id="_t937sQ7rEeW4cb9mtb7ITA" name="null" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6tkhcA7rEeW4cb9mtb7ITA" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6tkhcQ7rEeW4cb9mtb7ITA" value="1"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_t937sg7rEeW4cb9mtb7ITA" name="x" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_t937sw7rEeW4cb9mtb7ITA" name="y" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_t937tA7rEeW4cb9mtb7ITA" name="z" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_t937tQ7rEeW4cb9mtb7ITA" name="type" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_t937tg7rEeW4cb9mtb7ITA" name="ao" type="_fLFY0PQ8EeSIFroSQ3PJhQ"/>
+        <ownedParameter xmi:id="_SmArUA7uEeW4cb9mtb7ITA" name="position" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_0uLMIPKiEeSU2M_KtQEOUA" name="doubleBuffersToVertexBuffers" visibility="private" memberEnd="_0uLzMPKiEeSU2M_KtQEOUA _0uNoYPKiEeSU2M_KtQEOUA" navigableOwnedEnd="_0uNoYPKiEeSU2M_KtQEOUA">
@@ -865,6 +954,26 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_IOrLoPQ1EeSIFroSQ3PJhQ" name="DebugUI">
       <generalization xmi:id="_c7CF8PQ1EeSIFroSQ3PJhQ" general="_lZEjwPM5EeSIFroSQ3PJhQ"/>
+      <nestedClassifier xmi:type="uml:Association" xmi:id="_7U3rcBEvEeWsiNjc5TJbtQ" name="instanceCountLabel[0..1]" visibility="private" memberEnd="_7U4SgBEvEeWsiNjc5TJbtQ _7U4SgxEvEeWsiNjc5TJbtQ" navigableOwnedEnd="_7U4SgxEvEeWsiNjc5TJbtQ">
+        <ownedEnd xmi:id="_7U4SgBEvEeWsiNjc5TJbtQ" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_7U3rcBEvEeWsiNjc5TJbtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7U4SgREvEeWsiNjc5TJbtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7U4SghEvEeWsiNjc5TJbtQ" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_7U4SgxEvEeWsiNjc5TJbtQ" name="instanceCountLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_7U3rcBEvEeWsiNjc5TJbtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7U4ShBEvEeWsiNjc5TJbtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7U4ShREvEeWsiNjc5TJbtQ" value="1"/>
+        </ownedEnd>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:Association" xmi:id="_-P55MBEvEeWsiNjc5TJbtQ" name="occludedCountLabel[0..1]" visibility="private" memberEnd="_-P55MREvEeWsiNjc5TJbtQ _-P55NBEvEeWsiNjc5TJbtQ" navigableOwnedEnd="_-P55NBEvEeWsiNjc5TJbtQ">
+        <ownedEnd xmi:id="_-P55MREvEeWsiNjc5TJbtQ" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_-P55MBEvEeWsiNjc5TJbtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-P55MhEvEeWsiNjc5TJbtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-P55MxEvEeWsiNjc5TJbtQ" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_-P55NBEvEeWsiNjc5TJbtQ" name="occludedCountLabel" visibility="private" type="_GT7bQPM6EeSIFroSQ3PJhQ" association="_-P55MBEvEeWsiNjc5TJbtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-P55NREvEeWsiNjc5TJbtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-P55NhEvEeWsiNjc5TJbtQ" value="1"/>
+        </ownedEnd>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_1EDvMAP-EeWXzfeSmmg0Yw" name="fPSLabel[*]" visibility="private" memberEnd="_1EEWQAP-EeWXzfeSmmg0Yw _1EfNAQP-EeWXzfeSmmg0Yw" navigableOwnedEnd="_1EfNAQP-EeWXzfeSmmg0Yw">
       <ownedEnd xmi:id="_1EEWQAP-EeWXzfeSmmg0Yw" name="debugUIs" visibility="private" type="_IOrLoPQ1EeSIFroSQ3PJhQ" aggregation="composite" association="_1EDvMAP-EeWXzfeSmmg0Yw">
@@ -1018,6 +1127,14 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DEyRQAP6EeWXzfeSmmg0Yw"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DEyRQQP6EeWXzfeSmmg0Yw" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_AdfkYBErEeWsiNjc5TJbtQ" name="instanceCount" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AdfkYRErEeWsiNjc5TJbtQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AdfkYhErEeWsiNjc5TJbtQ" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Cxu34BErEeWsiNjc5TJbtQ" name="occludedCount" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Cxu34RErEeWsiNjc5TJbtQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Cxu34hErEeWsiNjc5TJbtQ" value="1"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_8JXJ4PWYEeSjV6l1_rfr4w" name="isCubeVisible">
         <ownedParameter xmi:id="_8JXJ4fWYEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
           <name xsi:nil="true"/>
@@ -1115,6 +1232,14 @@
       <ownedAttribute xmi:id="_3qEiIAozEeW57rB61IrCrg" name="generated" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3qEiIQozEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3qEiIgozEeW57rB61IrCrg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yXs4YAvaEeW57rB61IrCrg" name="generating" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4YQvaEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4YgvaEeW57rB61IrCrg" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yXs4YwvaEeW57rB61IrCrg" name="buffering" visibility="private" type="_ddK1kPQoEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yXs4ZAvaEeW57rB61IrCrg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yXs4ZQvaEeW57rB61IrCrg" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_HyiaQPTaEeSsEf-9y1lS0g" name="generate">
         <ownedParameter xmi:id="_KNhO8PTaEeSsEf-9y1lS0g" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
@@ -1275,6 +1400,8 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_fLFY0PQ8EeSIFroSQ3PJhQ" name="float"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_jJujMPQ9EeSIFroSQ3PJhQ" name="thread">
     <packagedElement xmi:type="uml:Class" xmi:id="_nVpxEPQ9EeSIFroSQ3PJhQ" name="Pool" isAbstract="true">
+      <generalization xmi:id="_LeHsEAqPEeW57rB61IrCrg" general="_LQc0YAVpEeWXzfeSmmg0Yw"/>
+      <generalization xmi:id="_QEbI0AqPEeW57rB61IrCrg" general="_uiF4wAIWEeWbjNAbhTeNBg"/>
       <ownedAttribute xmi:id="_0y71kPQ9EeSIFroSQ3PJhQ" name="threadCount" visibility="protected" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0y8coPQ9EeSIFroSQ3PJhQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0y8cofQ9EeSIFroSQ3PJhQ" value="1"/>
@@ -1314,11 +1441,6 @@
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UlUFQfRCEeSIFroSQ3PJhQ" value="1"/>
         </ownedParameter>
         <ownedParameter xmi:id="_wqqb0fRBEeSIFroSQ3PJhQ" name="* pool" type="_nVpxEPQ9EeSIFroSQ3PJhQ"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_RpiLAPTOEeSIFroSQ3PJhQ" name="hasNext" isAbstract="true">
-        <ownedParameter xmi:id="_bbhCcPTOEeSIFroSQ3PJhQ" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_R6f1kPWGEeSjV6l1_rfr4w" name="isRunning">
         <ownedParameter xmi:id="_TMtEUPWGEeSjV6l1_rfr4w" type="_ddK1kPQoEeSIFroSQ3PJhQ" direction="return">
@@ -1508,6 +1630,14 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ilz0sP_sEeSKSsyltveFdA" name="Camera*"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_xIr7IACjEeWKSsyltveFdA" name="background">
     <packagedElement xmi:type="uml:Class" xmi:id="_2858gACjEeWKSsyltveFdA" name="Background">
+      <ownedAttribute xmi:id="_UDXNYA7eEeW4cb9mtb7ITA" name="firstColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UDX0cA7eEeW4cb9mtb7ITA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UDX0cQ7eEeW4cb9mtb7ITA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XYNpUA7eEeW4cb9mtb7ITA" name="lastColor" visibility="private" type="_PlYmcPNkEeSIFroSQ3PJhQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XYNpUQ7eEeW4cb9mtb7ITA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XYNpUg7eEeW4cb9mtb7ITA" value="1"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_WTmAoACmEeWKSsyltveFdA" name="render">
         <ownedParameter xmi:id="_WTmAoQCmEeWKSsyltveFdA" type="_1Ci5QO_nEeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
@@ -1591,10 +1721,10 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fb18YQV5EeWXzfeSmmg0Yw" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_lYPCUAV5EeWXzfeSmmg0Yw" name="&quot;CHANGED&quot;"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_MQ4I4ApGEeW57rB61IrCrg" name="ID_CHANGED" isStatic="true" type="_1XtvoPJmEeSU2M_KtQEOUA">
+      <ownedAttribute xmi:id="_MQ4I4ApGEeW57rB61IrCrg" name="ID_FINISHED" isStatic="true" type="_1XtvoPJmEeSU2M_KtQEOUA">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MQ4I4QpGEeW57rB61IrCrg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MQ4I4gpGEeW57rB61IrCrg" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_MQ4I4wpGEeW57rB61IrCrg" name="&quot;CHANGED&quot;"/>
+        <defaultValue xmi:type="uml:StringExpression" xmi:id="_MQ4I4wpGEeW57rB61IrCrg" name="&quot;FINISHED&quot;"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_t4tEAAV4EeWXzfeSmmg0Yw" name="transmittersToEvents" visibility="protected" memberEnd="_t4trEAV4EeWXzfeSmmg0Yw _t4uSIQV4EeWXzfeSmmg0Yw" navigableOwnedEnd="_t4uSIQV4EeWXzfeSmmg0Yw">
@@ -1610,4 +1740,5 @@
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KdWJMAV5EeWXzfeSmmg0Yw" name="void*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OHztgAXhEeWXzfeSmmg0Yw" name="Chunk*"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YizUgA7bEeW4cb9mtb7ITA" name="InputCamera*"/>
 </uml:Model>
