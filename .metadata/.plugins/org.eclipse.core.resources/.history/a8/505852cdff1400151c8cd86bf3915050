@@ -1063,7 +1063,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7yaIcP8aEeSKSsyltveFdA" name="Processor" isAbstract="true">
       <ownedOperation xmi:id="_tMEUsP8bEeSKSsyltveFdA" name="bufferize" isAbstract="true">
-        <ownedParameter xmi:id="_tMEUsf8bEeSKSsyltveFdA" type="_tKhpIBT_EeW__K5kWA2ScQ" direction="return">
+        <ownedParameter xmi:id="_tMEUsf8bEeSKSsyltveFdA" type="_40M1cP8bEeSKSsyltveFdA" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_tMEUsv8bEeSKSsyltveFdA" name="* octree" type="_YITVgPTfEeSsEf-9y1lS0g"/>

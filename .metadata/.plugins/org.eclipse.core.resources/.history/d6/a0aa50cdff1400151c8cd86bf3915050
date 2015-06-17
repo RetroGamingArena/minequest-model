@@ -6638,7 +6638,7 @@
             <foregroundColor xmi:type="viewpoint:RGBValues" xmi:id="_vuWmhQroEeW57rB61IrCrg" red="232" green="239" blue="247"/>
           </ownedStyle>
           <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Class']"/>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_tNa_kP8bEeSKSsyltveFdA" name="bufferize(* octree : Octree) : vector&lt;GLuint>*[1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_tNa_kP8bEeSKSsyltveFdA" name="bufferize(* octree : Octree) : vector&lt;GLfloat>*[1]">
             <target xmi:type="uml:Operation" href="main.uml#_tMEUsP8bEeSKSsyltveFdA"/>
             <semanticElements xmi:type="uml:Operation" href="main.uml#_tMEUsP8bEeSKSsyltveFdA"/>
             <semanticElements xmi:type="uml:Parameter" href="main.uml#_tMEUsv8bEeSKSsyltveFdA"/>

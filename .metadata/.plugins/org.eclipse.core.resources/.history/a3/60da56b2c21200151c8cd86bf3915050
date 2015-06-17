@@ -713,7 +713,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vSnKEPKcEeSU2M_KtQEOUA" name="VertexBuffer">
       <generalization xmi:id="_xr3rAPKdEeSU2M_KtQEOUA" general="_jJMeAPKYEeSU2M_KtQEOUA"/>
-      <ownedAttribute xmi:id="_FnAtUPKqEeSU2M_KtQEOUA" name="data" visibility="private" type="_V8EKoPJyEeSU2M_KtQEOUA" isReadOnly="true" aggregation="shared">
+      <ownedAttribute xmi:id="_FnAtUPKqEeSU2M_KtQEOUA" name="data" visibility="private" type="_wOLKEBK_EeW__K5kWA2ScQ" isReadOnly="true" aggregation="shared">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FnBUYPKqEeSU2M_KtQEOUA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FnB7cPKqEeSU2M_KtQEOUA" value="*"/>
       </ownedAttribute>
@@ -1063,7 +1063,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7yaIcP8aEeSKSsyltveFdA" name="Processor" isAbstract="true">
       <ownedOperation xmi:id="_tMEUsP8bEeSKSsyltveFdA" name="bufferize" isAbstract="true">
-        <ownedParameter xmi:id="_tMEUsf8bEeSKSsyltveFdA" type="_tKhpIBT_EeW__K5kWA2ScQ" direction="return">
+        <ownedParameter xmi:id="_tMEUsf8bEeSKSsyltveFdA" type="_40M1cP8bEeSKSsyltveFdA" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_tMEUsv8bEeSKSsyltveFdA" name="* octree" type="_YITVgPTfEeSsEf-9y1lS0g"/>
@@ -1728,5 +1728,5 @@
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_KdWJMAV5EeWXzfeSmmg0Yw" name="void*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_OHztgAXhEeWXzfeSmmg0Yw" name="Chunk*"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_YizUgA7bEeW4cb9mtb7ITA" name="InputCamera*"/>
-  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_tKhpIBT_EeW__K5kWA2ScQ" name="vector&lt;GLuint>*"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_wOLKEBK_EeW__K5kWA2ScQ" name="vector&lt;GLuint>*"/>
 </uml:Model>
