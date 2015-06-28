@@ -1809,7 +1809,7 @@
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:id="_rAdl4BzBEeW_8uWf-ldPaQ" name="enterCube">
-        <ownedParameter xmi:id="_7b8g4BzBEeW_8uWf-ldPaQ" type="_0dGY8PJPEeSU2M_KtQEOUA" direction="return">
+        <ownedParameter xmi:id="_7b8g4BzBEeW_8uWf-ldPaQ" type="_rW9OMO35EeSYNYAkuIL-TQ" direction="return">
           <name xsi:nil="true"/>
         </ownedParameter>
         <ownedParameter xmi:id="_9FxlcBzBEeW_8uWf-ldPaQ" name="x1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>

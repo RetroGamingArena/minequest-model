@@ -1216,7 +1216,9 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jbuJwhtbEeWrruRG5yWLCQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jbuJwxtbEeWrruRG5yWLCQ" value="1"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_riU9IBteEeWrruRG5yWLCQ" name="* ray" type="_M9h_oBbgEeW__K5kWA2ScQ"/>
+        <ownedParameter xmi:id="_riU9IBteEeWrruRG5yWLCQ" type="_M9h_oBbgEeW__K5kWA2ScQ">
+          <name xsi:nil="true"/>
+        </ownedParameter>
         <ownedParameter xmi:id="_jbuJxBtbEeWrruRG5yWLCQ" name="x" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_jbuJxRtbEeWrruRG5yWLCQ" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_jbuJxhtbEeWrruRG5yWLCQ" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
@@ -1799,7 +1801,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3Kj7kBcsEeW__K5kWA2ScQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Kj7kRcsEeW__K5kWA2ScQ" value="1"/>
         </ownedParameter>
-        <ownedParameter xmi:id="_8HzRQBbiEeW__K5kWA2ScQ" name="i" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
+        <ownedParameter xmi:id="_8HzRQBbiEeW__K5kWA2ScQ" name="i" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
       <ownedOperation xmi:id="_LXCb8BctEeW__K5kWA2ScQ" name="getNormalizedPoint">
         <ownedParameter xmi:id="_ORsPMBctEeW__K5kWA2ScQ" type="_PlYmcPNkEeSIFroSQ3PJhQ" direction="return">
@@ -1807,17 +1809,6 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ORsPMRctEeW__K5kWA2ScQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ORsPMhctEeW__K5kWA2ScQ" value="1"/>
         </ownedParameter>
-      </ownedOperation>
-      <ownedOperation xmi:id="_rAdl4BzBEeW_8uWf-ldPaQ" name="enterCube">
-        <ownedParameter xmi:id="_7b8g4BzBEeW_8uWf-ldPaQ" type="_0dGY8PJPEeSU2M_KtQEOUA" direction="return">
-          <name xsi:nil="true"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_9FxlcBzBEeW_8uWf-ldPaQ" name="x1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_QQltIBzFEeW_8uWf-ldPaQ" name="y1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_SVYPYBzFEeW_8uWf-ldPaQ" name="z1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_cj1AYBzFEeW_8uWf-ldPaQ" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_eTPvkBzFEeW_8uWf-ldPaQ" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_gJ_10BzFEeW_8uWf-ldPaQ" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
     </packagedElement>
   </packagedElement>
