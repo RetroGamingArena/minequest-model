@@ -1675,7 +1675,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2emR16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2emh16EeWL_9dTDtyX5Q" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="size" visibility="private" isStatic="true" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2enB16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2enR16EeWL_9dTDtyX5Q" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_Ra2enh16EeWL_9dTDtyX5Q" name="0"/>
@@ -1838,19 +1838,6 @@
         <ownedParameter xmi:id="_cj1AYBzFEeW_8uWf-ldPaQ" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_eTPvkBzFEeW_8uWf-ldPaQ" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_gJ_10BzFEeW_8uWf-ldPaQ" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_aYW9YB2AEeWL_9dTDtyX5Q" name="exitCube">
-        <ownedParameter xmi:id="_aYW9YR2AEeWL_9dTDtyX5Q" type="_0dGY8PJPEeSU2M_KtQEOUA" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bXNyUB2AEeWL_9dTDtyX5Q" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bXNyUR2AEeWL_9dTDtyX5Q" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_aYW9Yh2AEeWL_9dTDtyX5Q" name="x1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Yx2AEeWL_9dTDtyX5Q" name="y1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9ZB2AEeWL_9dTDtyX5Q" name="z1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9ZR2AEeWL_9dTDtyX5Q" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Zh2AEeWL_9dTDtyX5Q" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Zx2AEeWL_9dTDtyX5Q" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
     </packagedElement>
   </packagedElement>

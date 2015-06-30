@@ -1661,26 +1661,6 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SyX5APTnEeSsEf-9y1lS0g" value="*"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Ra2ekB16EeWL_9dTDtyX5Q" name="Empty">
-      <generalization xmi:id="_Ra2ekR16EeWL_9dTDtyX5Q" general="_CeKH0PTgEeSsEf-9y1lS0g"/>
-      <ownedAttribute xmi:id="_Ra2ekh16EeWL_9dTDtyX5Q" name="x" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2ekx16EeWL_9dTDtyX5Q"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2elB16EeWL_9dTDtyX5Q" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2elR16EeWL_9dTDtyX5Q" name="y" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2elh16EeWL_9dTDtyX5Q"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2elx16EeWL_9dTDtyX5Q" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2emB16EeWL_9dTDtyX5Q" name="z" visibility="private" type="_fLFY0PQ8EeSIFroSQ3PJhQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2emR16EeWL_9dTDtyX5Q"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2emh16EeWL_9dTDtyX5Q" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2enB16EeWL_9dTDtyX5Q"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2enR16EeWL_9dTDtyX5Q" value="1"/>
-        <defaultValue xmi:type="uml:StringExpression" xmi:id="_Ra2enh16EeWL_9dTDtyX5Q" name="0"/>
-      </ownedAttribute>
-    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_D_DjwPTpEeSsEf-9y1lS0g" name="unsigned char"/>
   <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_3uO14PTpEeSsEf-9y1lS0g" name="utils::NoiseMap"/>
@@ -1838,19 +1818,6 @@
         <ownedParameter xmi:id="_cj1AYBzFEeW_8uWf-ldPaQ" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_eTPvkBzFEeW_8uWf-ldPaQ" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
         <ownedParameter xmi:id="_gJ_10BzFEeW_8uWf-ldPaQ" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
-      <ownedOperation xmi:id="_aYW9YB2AEeWL_9dTDtyX5Q" name="exitCube">
-        <ownedParameter xmi:id="_aYW9YR2AEeWL_9dTDtyX5Q" type="_0dGY8PJPEeSU2M_KtQEOUA" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bXNyUB2AEeWL_9dTDtyX5Q" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bXNyUR2AEeWL_9dTDtyX5Q" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_aYW9Yh2AEeWL_9dTDtyX5Q" name="x1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Yx2AEeWL_9dTDtyX5Q" name="y1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9ZB2AEeWL_9dTDtyX5Q" name="z1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9ZR2AEeWL_9dTDtyX5Q" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Zh2AEeWL_9dTDtyX5Q" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_aYW9Zx2AEeWL_9dTDtyX5Q" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
       </ownedOperation>
     </packagedElement>
   </packagedElement>
