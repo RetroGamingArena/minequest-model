@@ -1688,7 +1688,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2emR16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2emh16EeWL_9dTDtyX5Q" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="xco" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2enB16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2enR16EeWL_9dTDtyX5Q" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_Ra2enh16EeWL_9dTDtyX5Q" name="0"/>

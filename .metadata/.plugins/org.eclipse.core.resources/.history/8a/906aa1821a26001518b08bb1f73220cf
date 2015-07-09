@@ -8255,7 +8255,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RhocBB16EeWL_9dTDtyX5Q" name="size : int [0..1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RhocBB16EeWL_9dTDtyX5Q" name="xco : int [0..1]">
             <target xmi:type="uml:Property" href="main.uml#_Ra2emx16EeWL_9dTDtyX5Q"/>
             <semanticElements xmi:type="uml:Property" href="main.uml#_Ra2emx16EeWL_9dTDtyX5Q"/>
             <semanticElements xmi:type="uml:StringExpression" href="main.uml#_Ra2enh16EeWL_9dTDtyX5Q"/>

@@ -1221,19 +1221,6 @@
         <ownedParameter xmi:id="_jbuJxRtbEeWrruRG5yWLCQ" name="y" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
         <ownedParameter xmi:id="_jbuJxhtbEeWrruRG5yWLCQ" name="z" type="_rW9OMO35EeSYNYAkuIL-TQ"/>
       </ownedOperation>
-      <ownedOperation xmi:id="_CA3wcCYYEeWa8vRUl319Kg" name="isCubeInFrustum">
-        <ownedParameter xmi:id="_CA3wcSYYEeWa8vRUl319Kg" type="_0dGY8PJPEeSU2M_KtQEOUA" direction="return">
-          <name xsi:nil="true"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CA3wciYYEeWa8vRUl319Kg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CA3wcyYYEeWa8vRUl319Kg" value="1"/>
-        </ownedParameter>
-        <ownedParameter xmi:id="_CA3wdCYYEeWa8vRUl319Kg" name="x1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_CA3wdSYYEeWa8vRUl319Kg" name="y1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_CA3wdiYYEeWa8vRUl319Kg" name="z1" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_CA3wdyYYEeWa8vRUl319Kg" name="x2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_CA3weCYYEeWa8vRUl319Kg" name="y2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-        <ownedParameter xmi:id="_CA3weSYYEeWa8vRUl319Kg" name="z2" type="_0dGY8PJPEeSU2M_KtQEOUA"/>
-      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MY4lcPQ5EeSIFroSQ3PJhQ" name="worldGenerator[0..1]" visibility="private" memberEnd="_MY4lcfQ5EeSIFroSQ3PJhQ _MY6aoPQ5EeSIFroSQ3PJhQ" navigableOwnedEnd="_MY6aoPQ5EeSIFroSQ3PJhQ">
       <ownedEnd xmi:id="_MY4lcfQ5EeSIFroSQ3PJhQ" name="world" visibility="private" type="_BDsMoPQqEeSIFroSQ3PJhQ" aggregation="composite" association="_MY4lcPQ5EeSIFroSQ3PJhQ">
@@ -1688,7 +1675,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2emR16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2emh16EeWL_9dTDtyX5Q" value="1"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="size" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
+      <ownedAttribute xmi:id="_Ra2emx16EeWL_9dTDtyX5Q" name="xco" visibility="private" type="_rW9OMO35EeSYNYAkuIL-TQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ra2enB16EeWL_9dTDtyX5Q"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ra2enR16EeWL_9dTDtyX5Q" value="1"/>
         <defaultValue xmi:type="uml:StringExpression" xmi:id="_Ra2enh16EeWL_9dTDtyX5Q" name="0"/>

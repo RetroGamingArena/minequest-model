@@ -998,9 +998,6 @@
                   <children xmi:type="notation:Node" xmi:id="_jhlhMBtbEeWrruRG5yWLCQ" type="3010" element="_jeJLoBtbEeWrruRG5yWLCQ">
                     <layoutConstraint xmi:type="notation:Location" xmi:id="_jhlhMRtbEeWrruRG5yWLCQ"/>
                   </children>
-                  <children xmi:type="notation:Node" xmi:id="_CNvu0CYYEeWa8vRUl319Kg" type="3010" element="_CHsKICYYEeWa8vRUl319Kg">
-                    <layoutConstraint xmi:type="notation:Location" xmi:id="_CNvu0SYYEeWa8vRUl319Kg"/>
-                  </children>
                   <styles xmi:type="notation:SortingStyle" xmi:id="_BGbXkfQqEeSIFroSQ3PJhQ"/>
                   <styles xmi:type="notation:FilteringStyle" xmi:id="_BGbXkvQqEeSIFroSQ3PJhQ"/>
                 </children>
@@ -7115,24 +7112,6 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_CHsKICYYEeWa8vRUl319Kg" name="isCubeInFrustum(x1 : double, y1 : double, z1 : double, x2 : double, y2 : double, z2 : double) : double[1]">
-            <target xmi:type="uml:Operation" href="main.uml#_CA3wcCYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Operation" href="main.uml#_CA3wcCYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3weSYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3weCYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3wdyYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3wdiYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3wdSYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3wdCYYEeWa8vRUl319Kg"/>
-            <semanticElements xmi:type="uml:Parameter" href="main.uml#_CA3wcSYYEeWa8vRUl319Kg"/>
-            <ownedStyle xmi:type="diagram:Square" xmi:id="_CHtYQCYYEeWa8vRUl319Kg" labelAlignment="LEFT">
-              <labelColor xmi:type="viewpoint:RGBValues" xmi:id="_CHtYQSYYEeWa8vRUl319Kg"/>
-              <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']/@style"/>
-              <borderColor xmi:type="viewpoint:RGBValues" xmi:id="_CHtYQiYYEeWa8vRUl319Kg"/>
-              <color xmi:type="viewpoint:RGBValues" xmi:id="_CHtYQyYYEeWa8vRUl319Kg" red="136" green="136" blue="136"/>
-            </ownedStyle>
-            <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
-          </ownedElements>
         </ownedDiagramElements>
         <ownedDiagramElements xmi:type="diagram:DNodeList" xmi:id="_85ew0PQ7EeSIFroSQ3PJhQ" name="Chunk" outgoingEdges="_futtQPTfEeSsEf-9y1lS0g _FXYXcPV_EeSjV6l1_rfr4w" incomingEdges="__pfaUPQ7EeSIFroSQ3PJhQ _SWSiUPTZEeSsEf-9y1lS0g _MPK_kPWIEeSjV6l1_rfr4w" width="12" height="10">
           <target xmi:type="uml:Class" href="main.uml#_85c7oPQ7EeSIFroSQ3PJhQ"/>
@@ -8255,7 +8234,7 @@
             </ownedStyle>
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Property']"/>
           </ownedElements>
-          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RhocBB16EeWL_9dTDtyX5Q" name="size : int [0..1]">
+          <ownedElements xmi:type="diagram:DNodeListElement" xmi:id="_RhocBB16EeWL_9dTDtyX5Q" name="xco : int [0..1]">
             <target xmi:type="uml:Property" href="main.uml#_Ra2emx16EeWL_9dTDtyX5Q"/>
             <semanticElements xmi:type="uml:Property" href="main.uml#_Ra2emx16EeWL_9dTDtyX5Q"/>
             <semanticElements xmi:type="uml:StringExpression" href="main.uml#_Ra2enh16EeWL_9dTDtyX5Q"/>
